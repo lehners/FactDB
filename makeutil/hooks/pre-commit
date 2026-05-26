@@ -7,12 +7,6 @@ CLANG_FORMAT=$(command -v clang-format-$LLVM_VERSION || command -v clang-format)
 
 email="$(git config user.email)"
 
-if ! [[ "$email" =~ [a-z.]+@(in.)?tum.de ]];
-then
-    echo "Non TUM email address $email, please set git config user.name / git config user.email"
-    exit 1
-fi
-
 files=()
 for file in $(git diff --cached --name-only --diff-filter=ACMRT | grep -E "\.(cpp|hpp)$"); do
   if ! cmp -s <(git show :"${file}") <(git show :"${file}"|"$CLANG_FORMAT" -assume-filename="${file}"); then
