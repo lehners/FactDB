@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+BASEDIR=$(dirname $(realpath "$0"))
+LLVM_VERSION=$(<$BASEDIR/llvmversion)
+
+CLANG_FORMAT=$(command -v clang-format-$LLVM_VERSION || command -v clang-format) || { echo "need clang-format"; exit 1; }
+
+email="$(git config user.email)"
+
+if ! [[ "$email" =~ [a-z.]+@(in.)?tum.de ]];
+then
+    echo "Non TUM email address $email, please set git config user.name / git config user.email"
+    exit 1
+fi
+
+files=()
+for file in $(git diff --cached --name-only --diff-filter=ACMRT | grep -E "\.(cpp|hpp)$"); do
+  if ! cmp -s <(git show :"${file}") <(git show :"${file}"|"$CLANG_FORMAT" -assume-filename="${file}"); then
+    files+=("${file}")
+  fi
+done
+
+if [[ -n "${files[0]}" ]]; then
+echo Format errors, please run:
+UMBRADIR=$(git rev-parse --show-toplevel)
+echo -n "$CLANG_FORMAT -i"
+printf " $UMBRADIR/%s" "${files[@]}"
+echo
+exit 1
+fi

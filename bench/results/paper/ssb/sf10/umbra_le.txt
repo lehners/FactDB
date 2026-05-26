@@ -1,0 +1,295 @@
+
+
+driver:    umbra_le
+queryname: None
+querypath: bench/ssb/sf10
+datapath:  bench/data/ssb/sf10
+warmups:   5
+runs:      10
+
+queryname: ssb_sf10_query_11 (The name of the current query (string))
+INFO:     [s] execution: (0.005835 min, 0.012062 max, 0.006193 median, 3.9% relMAD, 0.006785 avg, 0.001779 sdev, 59988609 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001190 min, 0.001190 max, 0.001190 median, 0.0% relMAD, 0.001190 avg, 0.000000 sdev)
+count
+1193001
+count
+1193001
+count
+1193001
+count
+1193001
+count
+1193001
+count
+1193001
+count
+1193001
+count
+1193001
+count
+1193001
+count
+1193001
+queryname: ssb_sf10_query_12 (The name of the current query (string))
+INFO:     [s] execution: (0.004536 min, 0.005336 max, 0.004950 median, 5.6% relMAD, 0.004892 avg, 0.000283 sdev, 59988609 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.000883 min, 0.000883 max, 0.000883 median, 0.0% relMAD, 0.000883 avg, 0.000000 sdev)
+count
+42209
+count
+42209
+count
+42209
+count
+42209
+count
+42209
+count
+42209
+count
+42209
+count
+42209
+count
+42209
+count
+42209
+queryname: ssb_sf10_query_13 (The name of the current query (string))
+INFO:     [s] execution: (0.004295 min, 0.005011 max, 0.004717 median, 6.2% relMAD, 0.004634 avg, 0.000266 sdev, 59988609 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.000879 min, 0.000879 max, 0.000879 median, 0.0% relMAD, 0.000879 avg, 0.000000 sdev)
+count
+9488
+count
+9488
+count
+9488
+count
+9488
+count
+9488
+count
+9488
+count
+9488
+count
+9488
+count
+9488
+count
+9488
+queryname: ssb_sf10_query_21 (The name of the current query (string))
+INFO:     [s] execution: (0.007761 min, 0.010444 max, 0.007995 median, 1.4% relMAD, 0.008230 avg, 0.000749 sdev, 60808609 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001204 min, 0.001204 max, 0.001204 median, 0.0% relMAD, 0.001204 avg, 0.000000 sdev)
+count
+490740
+count
+490740
+count
+490740
+count
+490740
+count
+490740
+count
+490740
+count
+490740
+count
+490740
+count
+490740
+count
+490740
+queryname: ssb_sf10_query_22 (The name of the current query (string))
+count
+94856
+count
+94856
+count
+94856
+count
+94856
+count
+94856
+count
+94856
+count
+94856
+count
+94856
+count
+94856
+count
+94856
+INFO:     [s] execution: (0.005135 min, 0.006248 max, 0.005376 median, 2.7% relMAD, 0.005433 avg, 0.000302 sdev, 60808609 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001197 min, 0.001197 max, 0.001197 median, 0.0% relMAD, 0.001197 avg, 0.000000 sdev)
+queryname: ssb_sf10_query_23 (The name of the current query (string))
+INFO:     [s] execution: (0.003959 min, 0.004112 max, 0.004019 median, 0.8% relMAD, 0.004022 avg, 0.000044 sdev, 60808609 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001153 min, 0.001153 max, 0.001153 median, 0.0% relMAD, 0.001153 avg, 0.000000 sdev)
+count
+11654
+count
+11654
+count
+11654
+count
+11654
+count
+11654
+count
+11654
+count
+11654
+count
+11654
+count
+11654
+count
+11654
+queryname: ssb_sf10_query_31 (The name of the current query (string))
+count
+2199936
+count
+2199936
+count
+2199936
+count
+2199936
+count
+2199936
+count
+2199936
+count
+2199936
+count
+2199936
+count
+2199936
+count
+2199936
+INFO:     [s] execution: (0.009789 min, 0.011859 max, 0.009964 median, 0.4% relMAD, 0.010127 avg, 0.000582 sdev, 60308609 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001172 min, 0.001172 max, 0.001172 median, 0.0% relMAD, 0.001172 avg, 0.000000 sdev)
+queryname: ssb_sf10_query_32 (The name of the current query (string))
+count
+87646
+count
+87646
+count
+87646
+count
+87646
+count
+87646
+count
+87646
+count
+87646
+count
+87646
+count
+87646
+count
+87646
+INFO:     [s] execution: (0.005811 min, 0.006847 max, 0.006365 median, 5.1% relMAD, 0.006304 avg, 0.000316 sdev, 60308609 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001158 min, 0.001158 max, 0.001158 median, 0.0% relMAD, 0.001158 avg, 0.000000 sdev)
+queryname: ssb_sf10_query_33 (The name of the current query (string))
+count
+3347
+count
+3347
+count
+3347
+count
+3347
+count
+3347
+count
+3347
+count
+3347
+count
+3347
+count
+3347
+count
+3347
+INFO:     [s] execution: (0.004484 min, 0.005205 max, 0.004681 median, 1.9% relMAD, 0.004704 avg, 0.000194 sdev, 60308609 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001412 min, 0.001412 max, 0.001412 median, 0.0% relMAD, 0.001412 avg, 0.000000 sdev)
+queryname: ssb_sf10_query_34 (The name of the current query (string))
+count
+53
+count
+53
+count
+53
+count
+53
+count
+53
+count
+53
+count
+53
+count
+53
+count
+53
+count
+53
+INFO:     [s] execution: (0.004414 min, 0.004882 max, 0.004656 median, 1.6% relMAD, 0.004663 avg, 0.000125 sdev, 60308609 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001401 min, 0.001401 max, 0.001401 median, 0.0% relMAD, 0.001401 avg, 0.000000 sdev)
+queryname: ssb_sf10_query_41 (The name of the current query (string))
+count
+976694
+count
+976694
+count
+976694
+count
+976694
+count
+976694
+count
+976694
+count
+976694
+count
+976694
+count
+976694
+count
+976694
+INFO:     [s] execution: (0.010902 min, 0.011334 max, 0.011138 median, 1.7% relMAD, 0.011083 avg, 0.000157 sdev, 61108609 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001530 min, 0.001530 max, 0.001530 median, 0.0% relMAD, 0.001530 avg, 0.000000 sdev)
+queryname: ssb_sf10_query_42 (The name of the current query (string))
+count
+235447
+count
+235447
+count
+235447
+count
+235447
+count
+235447
+count
+235447
+count
+235447
+count
+235447
+count
+235447
+count
+235447
+INFO:     [s] execution: (0.008960 min, 0.009358 max, 0.009171 median, 1.1% relMAD, 0.009161 avg, 0.000121 sdev, 61108609 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001518 min, 0.001518 max, 0.001518 median, 0.0% relMAD, 0.001518 avg, 0.000000 sdev)
+queryname: ssb_sf10_query_43 (The name of the current query (string))
+count
+23549
+count
+23549
+count
+23549
+count
+23549
+count
+23549
+count
+23549
+count
+23549
+count
+23549
+count
+23549
+count
+23549
+INFO:     [s] execution: (0.006966 min, 0.007340 max, 0.007220 median, 1.6% relMAD, 0.007170 avg, 0.000127 sdev, 61108609 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001381 min, 0.001381 max, 0.001381 median, 0.0% relMAD, 0.001381 avg, 0.000000 sdev)

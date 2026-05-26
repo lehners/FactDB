@@ -1,0 +1,775 @@
+
+
+driver:    umbra
+queryname: join123_100000x100000x100000_2
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_50000x50000x50000
+warmups:   5
+runs:      10
+
+WARNING: Could not extract threads for numa node 0!
+count
+400631
+count
+400631
+count
+400631
+count
+400631
+count
+400631
+count
+400631
+count
+400631
+count
+400631
+count
+400631
+count
+400631
+INFO:    [s] execution: (0.001668 min, 0.022780 max, 0.001857 median, 4.4% relMAD, 0.003898 avg, 0.006294 sdev, 300001 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001464 min, 0.001464 max, 0.001464 median, 0.0% relMAD, 0.001464 avg, 0.000000 sdev)
+
+
+driver:    umbra
+queryname: join123_100000x100000x100000_4
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_25000x25000x25000
+warmups:   5
+runs:      10
+
+WARNING: Could not extract threads for numa node 0!
+count
+1597823
+count
+1597823
+count
+1597823
+count
+1597823
+count
+1597823
+count
+1597823
+count
+1597823
+count
+1597823
+count
+1597823
+count
+1597823
+INFO:    [s] execution: (0.001987 min, 0.010504 max, 0.002171 median, 8.0% relMAD, 0.003024 avg, 0.002498 sdev, 300001 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001530 min, 0.001530 max, 0.001530 median, 0.0% relMAD, 0.001530 avg, 0.000000 sdev)
+
+
+driver:    umbra
+queryname: join123_100000x100000x100000_6
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_16666x16666x16666
+warmups:   5
+runs:      10
+
+WARNING: Could not extract threads for numa node 0!
+count
+3596718
+count
+3596718
+count
+3596718
+count
+3596718
+count
+3596718
+count
+3596718
+count
+3596718
+count
+3596718
+count
+3596718
+count
+3596718
+INFO:    [s] execution: (0.001582 min, 0.007268 max, 0.001672 median, 4.4% relMAD, 0.002250 avg, 0.001676 sdev, 300001 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001463 min, 0.001463 max, 0.001463 median, 0.0% relMAD, 0.001463 avg, 0.000000 sdev)
+
+
+driver:    umbra
+queryname: join123_100000x100000x100000_8
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_12500x12500x12500
+warmups:   5
+runs:      10
+
+WARNING: Could not extract threads for numa node 0!
+INFO:    [s] execution: (0.002246 min, 0.006475 max, 0.002656 median, 6.8% relMAD, 0.002954 avg, 0.001188 sdev, 300001 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001470 min, 0.001470 max, 0.001470 median, 0.0% relMAD, 0.001470 avg, 0.000000 sdev)
+count
+6383985
+count
+6383985
+count
+6383985
+count
+6383985
+count
+6383985
+count
+6383985
+count
+6383985
+count
+6383985
+count
+6383985
+count
+6383985
+
+
+driver:    umbra
+queryname: join123_100000x100000x100000_10
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_10000x10000x10000
+warmups:   5
+runs:      10
+
+WARNING: Could not extract threads for numa node 0!
+INFO:    [s] execution: (0.002550 min, 0.018524 max, 0.002674 median, 4.5% relMAD, 0.004430 avg, 0.004734 sdev, 300001 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001475 min, 0.001475 max, 0.001475 median, 0.0% relMAD, 0.001475 avg, 0.000000 sdev)
+count
+10009345
+count
+10009345
+count
+10009345
+count
+10009345
+count
+10009345
+count
+10009345
+count
+10009345
+count
+10009345
+count
+10009345
+count
+10009345
+
+
+driver:    umbra
+queryname: join123_100000x100000x100000_12
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_8333x8333x8333
+warmups:   5
+runs:      10
+
+WARNING: Could not extract threads for numa node 0!
+INFO:    [s] execution: (0.002439 min, 0.019387 max, 0.002859 median, 11.3% relMAD, 0.004394 avg, 0.005004 sdev, 300001 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001461 min, 0.001461 max, 0.001461 median, 0.0% relMAD, 0.001461 avg, 0.000000 sdev)
+count
+14394425
+count
+14394425
+count
+14394425
+count
+14394425
+count
+14394425
+count
+14394425
+count
+14394425
+count
+14394425
+count
+14394425
+count
+14394425
+
+
+driver:    umbra
+queryname: join123_100000x100000x100000_14
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_7142x7142x7142
+warmups:   5
+runs:      10
+
+WARNING: Could not extract threads for numa node 0!
+count
+19558483
+count
+19558483
+count
+19558483
+count
+19558483
+count
+19558483
+count
+19558483
+count
+19558483
+count
+19558483
+count
+19558483
+count
+19558483
+INFO:    [s] execution: (0.003473 min, 0.012800 max, 0.003913 median, 4.2% relMAD, 0.005081 avg, 0.002789 sdev, 300001 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001491 min, 0.001491 max, 0.001491 median, 0.0% relMAD, 0.001491 avg, 0.000000 sdev)
+
+
+driver:    umbra
+queryname: join123_100000x100000x100000_16
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_6250x6250x6250
+warmups:   5
+runs:      10
+
+WARNING: Could not extract threads for numa node 0!
+INFO:    [s] execution: (0.004044 min, 0.021244 max, 0.005018 median, 10.8% relMAD, 0.006580 avg, 0.004924 sdev, 300001 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001495 min, 0.001495 max, 0.001495 median, 0.0% relMAD, 0.001495 avg, 0.000000 sdev)
+count
+25550271
+count
+25550271
+count
+25550271
+count
+25550271
+count
+25550271
+count
+25550271
+count
+25550271
+count
+25550271
+count
+25550271
+count
+25550271
+
+
+driver:    umbra
+queryname: join123_100000x100000x100000_18
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_5555x5555x5555
+warmups:   5
+runs:      10
+
+WARNING: Could not extract threads for numa node 0!
+INFO:    [s] execution: (0.004335 min, 0.024283 max, 0.004886 median, 6.8% relMAD, 0.006797 avg, 0.005841 sdev, 300001 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001472 min, 0.001472 max, 0.001472 median, 0.0% relMAD, 0.001472 avg, 0.000000 sdev)
+count
+32407115
+count
+32407115
+count
+32407115
+count
+32407115
+count
+32407115
+count
+32407115
+count
+32407115
+count
+32407115
+count
+32407115
+count
+32407115
+
+
+driver:    umbra
+queryname: join123_100000x100000x100000_20
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_5000x5000x5000
+warmups:   5
+runs:      10
+
+WARNING: Could not extract threads for numa node 0!
+INFO:    [s] execution: (0.005141 min, 0.019993 max, 0.006551 median, 14.9% relMAD, 0.007473 avg, 0.004231 sdev, 300001 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001456 min, 0.001456 max, 0.001456 median, 0.0% relMAD, 0.001456 avg, 0.000000 sdev)
+count
+39969523
+count
+39969523
+count
+39969523
+count
+39969523
+count
+39969523
+count
+39969523
+count
+39969523
+count
+39969523
+count
+39969523
+count
+39969523
+
+
+driver:    umbra
+queryname: join123_100000x100000x100000_22
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_4545x4545x4545
+warmups:   5
+runs:      10
+
+WARNING: Could not extract threads for numa node 0!
+INFO:    [s] execution: (0.005316 min, 0.016932 max, 0.006583 median, 14.8% relMAD, 0.007288 avg, 0.003295 sdev, 300001 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001485 min, 0.001485 max, 0.001485 median, 0.0% relMAD, 0.001485 avg, 0.000000 sdev)
+count
+48374139
+count
+48374139
+count
+48374139
+count
+48374139
+count
+48374139
+count
+48374139
+count
+48374139
+count
+48374139
+count
+48374139
+count
+48374139
+
+
+driver:    umbra
+queryname: join123_100000x100000x100000_24
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_4166x4166x4166
+warmups:   5
+runs:      10
+
+WARNING: Could not extract threads for numa node 0!
+INFO:    [s] execution: (0.004963 min, 0.011659 max, 0.006094 median, 14.2% relMAD, 0.006566 avg, 0.001868 sdev, 300001 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001458 min, 0.001458 max, 0.001458 median, 0.0% relMAD, 0.001458 avg, 0.000000 sdev)
+count
+57523428
+count
+57523428
+count
+57523428
+count
+57523428
+count
+57523428
+count
+57523428
+count
+57523428
+count
+57523428
+count
+57523428
+count
+57523428
+
+
+driver:    umbra
+queryname: join123_100000x100000x100000_26
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_3846x3846x3846
+warmups:   5
+runs:      10
+
+WARNING: Could not extract threads for numa node 0!
+INFO:    [s] execution: (0.006444 min, 0.026761 max, 0.007078 median, 5.4% relMAD, 0.008993 avg, 0.005938 sdev, 300001 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001474 min, 0.001474 max, 0.001474 median, 0.0% relMAD, 0.001474 avg, 0.000000 sdev)
+count
+67534117
+count
+67534117
+count
+67534117
+count
+67534117
+count
+67534117
+count
+67534117
+count
+67534117
+count
+67534117
+count
+67534117
+count
+67534117
+
+
+driver:    umbra
+queryname: join123_100000x100000x100000_28
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_3571x3571x3571
+warmups:   5
+runs:      10
+
+WARNING: Could not extract threads for numa node 0!
+INFO:    [s] execution: (0.007174 min, 0.030004 max, 0.007845 median, 8.0% relMAD, 0.010191 avg, 0.006665 sdev, 300001 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001478 min, 0.001478 max, 0.001478 median, 0.0% relMAD, 0.001478 avg, 0.000000 sdev)
+count
+78284680
+count
+78284680
+count
+78284680
+count
+78284680
+count
+78284680
+count
+78284680
+count
+78284680
+count
+78284680
+count
+78284680
+count
+78284680
+
+
+driver:    umbra
+queryname: join123_100000x100000x100000_30
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_3333x3333x3333
+warmups:   5
+runs:      10
+
+WARNING: Could not extract threads for numa node 0!
+count
+89925450
+count
+89925450
+count
+89925450
+count
+89925450
+count
+89925450
+count
+89925450
+count
+89925450
+count
+89925450
+count
+89925450
+count
+89925450
+INFO:    [s] execution: (0.007858 min, 0.026514 max, 0.008443 median, 6.8% relMAD, 0.010512 avg, 0.005431 sdev, 300001 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001457 min, 0.001457 max, 0.001457 median, 0.0% relMAD, 0.001457 avg, 0.000000 sdev)
+
+
+driver:    umbra
+queryname: join123_100000x100000x100000_32
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_3125x3125x3125
+warmups:   5
+runs:      10
+
+WARNING: Could not extract threads for numa node 0!
+INFO:    [s] execution: (0.006917 min, 0.018403 max, 0.007820 median, 9.1% relMAD, 0.009279 avg, 0.003539 sdev, 300001 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001463 min, 0.001463 max, 0.001463 median, 0.0% relMAD, 0.001463 avg, 0.000000 sdev)
+count
+102227662
+count
+102227662
+count
+102227662
+count
+102227662
+count
+102227662
+count
+102227662
+count
+102227662
+count
+102227662
+count
+102227662
+count
+102227662
+
+
+driver:    umbra
+queryname: join123_100000x100000x100000_34
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_2941x2941x2941
+warmups:   5
+runs:      10
+
+WARNING: Could not extract threads for numa node 0!
+count
+115585025
+count
+115585025
+count
+115585025
+count
+115585025
+count
+115585025
+count
+115585025
+count
+115585025
+count
+115585025
+count
+115585025
+count
+115585025
+INFO:    [s] execution: (0.009391 min, 0.037158 max, 0.010089 median, 6.9% relMAD, 0.013130 avg, 0.008100 sdev, 300001 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001468 min, 0.001468 max, 0.001468 median, 0.0% relMAD, 0.001468 avg, 0.000000 sdev)
+
+
+driver:    umbra
+queryname: join123_100000x100000x100000_36
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_2777x2777x2777
+warmups:   5
+runs:      10
+
+WARNING: Could not extract threads for numa node 0!
+INFO:    [s] execution: (0.008636 min, 0.017170 max, 0.008821 median, 2.1% relMAD, 0.010109 avg, 0.002501 sdev, 300001 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001573 min, 0.001573 max, 0.001573 median, 0.0% relMAD, 0.001573 avg, 0.000000 sdev)
+count
+129518838
+count
+129518838
+count
+129518838
+count
+129518838
+count
+129518838
+count
+129518838
+count
+129518838
+count
+129518838
+count
+129518838
+count
+129518838
+
+
+driver:    umbra
+queryname: join123_100000x100000x100000_38
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_2631x2631x2631
+warmups:   5
+runs:      10
+
+WARNING: Could not extract threads for numa node 0!
+INFO:    [s] execution: (0.009444 min, 0.037912 max, 0.009867 median, 2.6% relMAD, 0.013389 avg, 0.008340 sdev, 300001 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001479 min, 0.001479 max, 0.001479 median, 0.0% relMAD, 0.001479 avg, 0.000000 sdev)
+count
+144255491
+count
+144255491
+count
+144255491
+count
+144255491
+count
+144255491
+count
+144255491
+count
+144255491
+count
+144255491
+count
+144255491
+count
+144255491
+
+
+driver:    umbra
+queryname: join123_100000x100000x100000_40
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_2500x2500x2500
+warmups:   5
+runs:      10
+
+WARNING: Could not extract threads for numa node 0!
+INFO:    [s] execution: (0.010377 min, 0.038322 max, 0.010667 median, 2.2% relMAD, 0.013797 avg, 0.008233 sdev, 300001 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001486 min, 0.001486 max, 0.001486 median, 0.0% relMAD, 0.001486 avg, 0.000000 sdev)
+count
+159813160
+count
+159813160
+count
+159813160
+count
+159813160
+count
+159813160
+count
+159813160
+count
+159813160
+count
+159813160
+count
+159813160
+count
+159813160
+
+
+driver:    umbra
+queryname: join123_100000x100000x100000_42
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_2380x2380x2380
+warmups:   5
+runs:      10
+
+WARNING: Could not extract threads for numa node 0!
+INFO:    [s] execution: (0.013125 min, 0.024098 max, 0.014848 median, 2.2% relMAD, 0.015423 avg, 0.002975 sdev, 300001 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001474 min, 0.001474 max, 0.001474 median, 0.0% relMAD, 0.001474 avg, 0.000000 sdev)
+count
+176446648
+count
+176446648
+count
+176446648
+count
+176446648
+count
+176446648
+count
+176446648
+count
+176446648
+count
+176446648
+count
+176446648
+count
+176446648
+
+
+driver:    umbra
+queryname: join123_100000x100000x100000_44
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_2272x2272x2272
+warmups:   5
+runs:      10
+
+WARNING: Could not extract threads for numa node 0!
+count
+193529700
+count
+193529700
+count
+193529700
+count
+193529700
+count
+193529700
+count
+193529700
+count
+193529700
+count
+193529700
+count
+193529700
+count
+193529700
+INFO:    [s] execution: (0.013660 min, 0.028608 max, 0.015263 median, 2.7% relMAD, 0.016323 avg, 0.004140 sdev, 300001 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001510 min, 0.001510 max, 0.001510 median, 0.0% relMAD, 0.001510 avg, 0.000000 sdev)
+
+
+driver:    umbra
+queryname: join123_100000x100000x100000_46
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_2173x2173x2173
+warmups:   5
+runs:      10
+
+WARNING: Could not extract threads for numa node 0!
+count
+211651249
+count
+211651249
+count
+211651249
+count
+211651249
+count
+211651249
+count
+211651249
+count
+211651249
+count
+211651249
+count
+211651249
+count
+211651249
+INFO:    [s] execution: (0.014237 min, 0.030058 max, 0.016014 median, 9.2% relMAD, 0.016934 avg, 0.004480 sdev, 300001 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001462 min, 0.001462 max, 0.001462 median, 0.0% relMAD, 0.001462 avg, 0.000000 sdev)
+
+
+driver:    umbra
+queryname: join123_100000x100000x100000_48
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_2083x2083x2083
+warmups:   5
+runs:      10
+
+WARNING: Could not extract threads for numa node 0!
+INFO:    [s] execution: (0.014990 min, 0.031048 max, 0.016593 median, 3.0% relMAD, 0.017843 avg, 0.004447 sdev, 300001 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001455 min, 0.001455 max, 0.001455 median, 0.0% relMAD, 0.001455 avg, 0.000000 sdev)
+count
+230370798
+count
+230370798
+count
+230370798
+count
+230370798
+count
+230370798
+count
+230370798
+count
+230370798
+count
+230370798
+count
+230370798
+count
+230370798
+
+
+driver:    umbra
+queryname: join123_100000x100000x100000_50
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_2000x2000x2000
+warmups:   5
+runs:      10
+
+WARNING: Could not extract threads for numa node 0!
+INFO:    [s] execution: (0.015379 min, 0.041839 max, 0.017288 median, 2.8% relMAD, 0.019523 avg, 0.007471 sdev, 300001 scale, nan IPC, nan CPUs, nan GHz) compilation: (0.001480 min, 0.001480 max, 0.001480 median, 0.0% relMAD, 0.001480 avg, 0.000000 sdev)
+count
+249912869
+count
+249912869
+count
+249912869
+count
+249912869
+count
+249912869
+count
+249912869
+count
+249912869
+count
+249912869
+count
+249912869
+count
+249912869

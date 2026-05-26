@@ -1,0 +1,152 @@
+\documentclass{standalone}
+
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage{pgfplots}
+\usepackage{filecontents}
+\usepgfplotslibrary{units,groupplots}
+
+\definecolor{wblack}{RGB}{0, 0, 0}
+\definecolor{worange}{RGB}{230, 159, 0}
+\definecolor{wskyblue}{RGB}{86, 180, 233}
+\definecolor{wgreen}{RGB}{0, 158, 115}
+\definecolor{wyellow}{RGB}{240, 228, 66}
+\definecolor{wblue}{RGB}{0, 114, 178}
+\definecolor{wred}{RGB}{213, 94, 0}
+\definecolor{wpurple}{RGB}{204, 121, 167}
+
+\pgfplotsset{
+    compat=newest,
+    width=6cm,
+    height=22mm,
+    scale only axis=true,
+    scaled ticks=false,
+    xticklabel style={/pgf/number format/fixed},
+    xlabel shift=-4pt,
+    %max space between ticks=25pt,
+    %try min ticks=5,
+    %every axis plot/.append style={thick},
+    %tick style={black, thick}
+}
+
+\begin{document}
+
+% This file was created with matplot2tikz v0.3.2.
+\begin{tikzpicture}
+
+\definecolor{black41229}{RGB}{41,2,29}
+\definecolor{darkgray176}{RGB}{176,176,176}
+\definecolor{darkorange2551270}{RGB}{255,127,0}
+\definecolor{darkorchid15278163}{RGB}{152,78,163}
+\definecolor{darkslategray3580122}{RGB}{35,80,122}
+\definecolor{firebrick2052228}{RGB}{205,22,28}
+\definecolor{gold2552100}{RGB}{255,210,0}
+\definecolor{lightgray204}{RGB}{204,204,204}
+\definecolor{seagreen6013758}{RGB}{60,137,58}
+\definecolor{lightgray218215203}{RGB}{218,215,203}
+\definecolor{darkcyan0101189}{RGB}{0,101,189}
+
+\newcommand{\addPlotIfExists}[2]{%
+    \IfFileExists{#2}{%
+        \addplot [#1, mark options={solid}] table [col sep=comma,x index=0,y index=1] {#2};
+    }{}%
+}
+\begin{groupplot}[group style={
+    group size=1 by 2,
+    ylabels at=edge left,
+    group name=my plots,
+    vertical sep =20mm,
+}]
+\nextgroupplot[
+log basis y={10},
+tick align=outside,
+tick pos=left,
+x grid style={darkgray176},
+xmajorgrids,
+xmin=1, xmax=50,
+xtick style={color=black},
+ylabel={execution time [ms]},
+xlabel={average number of duplicates per key in uniform distribution},
+xlabel style={yshift=1mm},
+y grid style={darkgray176},
+ymajorgrids,
+ymin=0.3, ymax=10000,
+ymode=log,
+ytick style={color=black}
+]
+\addPlotIfExists {semithick, wyellow, mark=x, mark size=1, mark options={solid}}                    {bench/results/csv/micro/scaleUniform/lmfao.csv};
+\addPlotIfExists {semithick, wskyblue, mark=Mercedes star, mark size=1, mark options={solid}}       {bench/results/csv/micro/scaleUniform/duckdb.csv};
+\addPlotIfExists {semithick, wblack, mark=Mercedes star flipped, mark size=1, mark options={solid}} {bench/results/csv/micro/scaleUniform/umbra.csv};
+\addPlotIfExists {semithick, wpurple, mark=asterisk, mark size=1, mark options={solid}}             {bench/results/csv/micro/scaleUniform/kuzu.csv};
+\addPlotIfExists {semithick, wgreen, mark=square, mark size=1, mark options={solid}}                {bench/results/csv/micro/scaleUniform/fbench.csv};
+\addPlotIfExists {semithick, wblue, mark=|, mark size=1, mark options={solid}}                      {bench/results/csv/micro/scaleUniform/flat.csv};
+\addPlotIfExists {semithick, worange, mark=triangle, mark size=1, mark options={solid}}             {bench/results/csv/micro/scaleUniform/bottom_insert.csv};
+\addPlotIfExists {semithick, wred, mark=diamond, mark size=1, mark options={solid}}                 {bench/results/csv/micro/scaleUniform/top_insert.csv};
+
+\nextgroupplot[
+legend cell align={left},
+legend columns=4,
+legend style={
+  reverse legend,
+  fill opacity=0,
+  draw opacity=1,
+  draw = none,
+  text opacity=1,
+  at={(.5,3.5)},
+  anchor=center,
+  cells={align=left},
+},
+log basis y={10},
+tick align=outside,
+tick pos=left,
+x grid style={darkgray176},
+xmajorgrids,
+xmin=.51, xmax=2,
+xtick style={color=black},
+xlabel={Zipf parameter $\alpha$},
+xlabel style={yshift=1mm},
+ylabel={execution time [ms]},
+y grid style={darkgray176},
+ymajorgrids,
+ymin=0.005, ymax=100000,
+ymode=log,
+ytick style={color=black}
+]
+
+\addPlotIfExists {semithick, wyellow, mark=x, mark size=1, mark options={solid}}                    {bench/results/csv/micro/alphaZipf/lmfao.csv};
+\addlegendentry{LMFAO}
+\addPlotIfExists {semithick, wskyblue, mark=Mercedes star, mark size=1, mark options={solid}}       {bench/results/csv/micro/alphaZipf/duckdb.csv};
+\addlegendentry{DuckDB}
+\addPlotIfExists {semithick, wblack, mark=Mercedes star flipped, mark size=1, mark options={solid}} {bench/results/csv/micro/alphaZipf/umbra.csv};
+\addlegendentry{Umbra}
+\addPlotIfExists {semithick, wpurple, mark=asterisk, mark size=1, mark options={solid}}             {bench/results/csv/micro/alphaZipf/kuzu.csv};
+\addlegendentry{Kuzu}
+\addPlotIfExists {semithick, wgreen, mark=square, mark size=1, mark options={solid}}                {bench/results/csv/micro/alphaZipf/fbench.csv};
+\addlegendentry{FDB}
+%
+\addPlotIfExists {semithick, wblue, mark=|, mark size=1, mark options={solid}}                      {bench/results/csv/micro/alphaZipf/flat.csv};
+\addlegendentry{flat}
+\addPlotIfExists {semithick, worange, mark=triangle, mark size=1, mark options={solid}}             {bench/results/csv/micro/alphaZipf/bottom_insert.csv};
+\addlegendentry{bottom-insert}
+\addPlotIfExists {semithick, wred, mark=diamond, mark size=1}                                       {bench/results/csv/micro/alphaZipf/top_insert.csv};
+\addlegendentry{top-insert}
+
+
+
+\end{groupplot}
+
+\tikzset{SubCaption/.style={
+    text width=7cm,yshift=-0mm, align=center,anchor=south
+}}
+
+    \node [text width = 10cm, anchor=west] at (-2,-7) {\bfseries
+    Performance on microbenchmarks.
+    Each relation contained $100,000$ and $10,000$ elements in the uniform and Zipfian benchmark, respectively.
+    With a growing number of duplicates, factorization becomes more beneficial. };
+\end{tikzpicture}
+
+
+
+\end{document}

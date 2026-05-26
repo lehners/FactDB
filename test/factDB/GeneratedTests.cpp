@@ -1,0 +1,5 @@
+#include "gtest/gtest.h" // TestWriter.cpp(22:4)
+#include "test/factDB/util/TestWriter.hpp" // TestWriter.cpp(22:4)
+/*---------------------------------------------------------------------------*/ // TestWriter.cpp(24:34)
+using namespace factDB; // TestWriter.cpp(25:39)
+/*---------------------------------------------------------------------------*/ // TestWriter.cpp(26:34)

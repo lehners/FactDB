@@ -1,0 +1,1140 @@
+
+
+driver:    kuzu
+queryname: join123_10000x10000x10000_0o5
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/zipf_10000x10000x10000_1000000_0.5
+warmups:   5
+runs:      10
+
+\queryname join123_10000x10000x10000_0o5
+7
+TIME - comp time: 10.041ms.
+TIME - exec time: 27.753ms.
+---
+
+7
+TIME - comp time: 1.25ms.
+TIME - exec time: 27.277ms.
+---
+
+7
+TIME - comp time: 1.675ms.
+TIME - exec time: 28.491ms.
+---
+
+7
+TIME - comp time: 2.499ms.
+TIME - exec time: 27.105ms.
+---
+
+7
+TIME - comp time: 3.761ms.
+TIME - exec time: 27.586ms.
+---
+
+7
+TIME - comp time: 3.755ms.
+TIME - exec time: 27.247ms.
+---
+7
+TIME - comp time: 3.818ms.
+TIME - exec time: 26.035ms.
+---
+7
+TIME - comp time: 3.717ms.
+TIME - exec time: 26.037ms.
+---
+7
+TIME - comp time: 3.744ms.
+TIME - exec time: 26.536ms.
+---
+7
+TIME - comp time: 3.7520000000000002ms.
+TIME - exec time: 27.304ms.
+---
+7
+TIME - comp time: 3.81ms.
+TIME - exec time: 27.091ms.
+---
+7
+TIME - comp time: 3.8249999999999997ms.
+TIME - exec time: 26.824ms.
+---
+7
+TIME - comp time: 3.819ms.
+TIME - exec time: 26.689ms.
+---
+7
+TIME - comp time: 3.688ms.
+TIME - exec time: 26.607ms.
+---
+7
+TIME - comp time: 3.8200000000000003ms.
+TIME - exec time: 26.152ms.
+---
+ [ms] execution: (5 warmups, 10 runs, 26.0350000 min, 27.304000 max, 26.648000 median, 0.378800% relMAD, 26.652200 avg, 0.474599 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    kuzu
+queryname: join123_10000x10000x10000_0o6
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/zipf_10000x10000x10000_1000000_0.6
+warmups:   5
+runs:      10
+
+\queryname join123_10000x10000x10000_0o6
+150
+TIME - comp time: 10.106ms.
+TIME - exec time: 28.445ms.
+---
+
+150
+TIME - comp time: 1.394ms.
+TIME - exec time: 27.345ms.
+---
+
+150
+TIME - comp time: 1.73ms.
+TIME - exec time: 27.594ms.
+---
+
+150
+TIME - comp time: 2.9450000000000003ms.
+TIME - exec time: 27.167ms.
+---
+
+150
+TIME - comp time: 3.7089999999999996ms.
+TIME - exec time: 26.796ms.
+---
+
+150
+TIME - comp time: 3.751ms.
+TIME - exec time: 25.989ms.
+---
+150
+TIME - comp time: 3.766ms.
+TIME - exec time: 26.458ms.
+---
+150
+TIME - comp time: 3.793ms.
+TIME - exec time: 26.645ms.
+---
+150
+TIME - comp time: 3.8339999999999996ms.
+TIME - exec time: 27.713ms.
+---
+150
+TIME - comp time: 3.835ms.
+TIME - exec time: 26.517ms.
+---
+150
+TIME - comp time: 3.7800000000000002ms.
+TIME - exec time: 25.862ms.
+---
+150
+TIME - comp time: 3.7720000000000002ms.
+TIME - exec time: 25.804ms.
+---
+150
+TIME - comp time: 3.795ms.
+TIME - exec time: 26.114ms.
+---
+150
+TIME - comp time: 3.85ms.
+TIME - exec time: 26.315ms.
+---
+150
+TIME - comp time: 3.75ms.
+TIME - exec time: 25.656ms.
+---
+ [ms] execution: (5 warmups, 10 runs, 25.6560000 min, 27.713000 max, 26.214500 median, 0.422300% relMAD, 26.307300 avg, 0.593600 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    kuzu
+queryname: join123_10000x10000x10000_0o7
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/zipf_10000x10000x10000_1000000_0.7
+warmups:   5
+runs:      10
+
+\queryname join123_10000x10000x10000_0o7
+6083
+TIME - comp time: 10.075ms.
+TIME - exec time: 30.654ms.
+---
+
+6083
+TIME - comp time: 1.254ms.
+TIME - exec time: 24.59ms.
+---
+
+6083
+TIME - comp time: 1.711ms.
+TIME - exec time: 30.221ms.
+---
+
+6083
+TIME - comp time: 2.726ms.
+TIME - exec time: 28.78ms.
+---
+
+6083
+TIME - comp time: 3.755ms.
+TIME - exec time: 29.471ms.
+---
+
+6083
+TIME - comp time: 3.804ms.
+TIME - exec time: 29.2ms.
+---
+6083
+TIME - comp time: 3.806ms.
+TIME - exec time: 29.962ms.
+---
+6083
+TIME - comp time: 3.811ms.
+TIME - exec time: 30.342ms.
+---
+6083
+TIME - comp time: 3.738ms.
+TIME - exec time: 30.155ms.
+---
+6083
+TIME - comp time: 3.749ms.
+TIME - exec time: 28.728ms.
+---
+6083
+TIME - comp time: 3.808ms.
+TIME - exec time: 29.562ms.
+---
+6083
+TIME - comp time: 3.831ms.
+TIME - exec time: 28.714ms.
+---
+6083
+TIME - comp time: 3.717ms.
+TIME - exec time: 29.4ms.
+---
+6083
+TIME - comp time: 3.8329999999999997ms.
+TIME - exec time: 28.653ms.
+---
+6083
+TIME - comp time: 3.804ms.
+TIME - exec time: 29.387ms.
+---
+ [ms] execution: (5 warmups, 10 runs, 28.6530000 min, 30.342000 max, 29.393500 median, 0.473900% relMAD, 29.410300 avg, 0.607250 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    kuzu
+queryname: join123_10000x10000x10000_0o7999999999999999
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/zipf_10000x10000x10000_1000000_0.7999999999999999
+warmups:   5
+runs:      10
+
+\queryname join123_10000x10000x10000_0o7999999999999999
+183269
+TIME - comp time: 10.106ms.
+TIME - exec time: 51.628ms.
+---
+
+183269
+TIME - comp time: 1.319ms.
+TIME - exec time: 71.032ms.
+---
+
+183269
+TIME - comp time: 2.686ms.
+TIME - exec time: 71.099ms.
+---
+
+183269
+TIME - comp time: 3.727ms.
+TIME - exec time: 70.517ms.
+---
+
+183269
+TIME - comp time: 3.798ms.
+TIME - exec time: 70.874ms.
+---
+
+183269
+TIME - comp time: 3.8219999999999996ms.
+TIME - exec time: 71.401ms.
+---
+183269
+TIME - comp time: 3.848ms.
+TIME - exec time: 71.152ms.
+---
+183269
+TIME - comp time: 3.795ms.
+TIME - exec time: 70.393ms.
+---
+183269
+TIME - comp time: 3.8089999999999997ms.
+TIME - exec time: 71.432ms.
+---
+183269
+TIME - comp time: 3.849ms.
+TIME - exec time: 71.012ms.
+---
+183269
+TIME - comp time: 3.8ms.
+TIME - exec time: 69.993ms.
+---
+183269
+TIME - comp time: 3.77ms.
+TIME - exec time: 70.277ms.
+---
+183269
+TIME - comp time: 3.774ms.
+TIME - exec time: 71.459ms.
+---
+183269
+TIME - comp time: 3.8489999999999998ms.
+TIME - exec time: 71.095ms.
+---
+183269
+TIME - comp time: 3.846ms.
+TIME - exec time: 69.462ms.
+---
+ [ms] execution: (5 warmups, 10 runs, 69.4620000 min, 71.459000 max, 71.053500 median, 0.540200% relMAD, 70.767600 avg, 0.692897 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    kuzu
+queryname: join123_10000x10000x10000_0o8999999999999999
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/zipf_10000x10000x10000_1000000_0.8999999999999999
+warmups:   5
+runs:      10
+
+\queryname join123_10000x10000x10000_0o8999999999999999
+3819014
+TIME - comp time: 10.189ms.
+TIME - exec time: 263.836ms.
+---
+
+3819014
+TIME - comp time: 1.296ms.
+TIME - exec time: 263.128ms.
+---
+
+3819014
+TIME - comp time: 1.243ms.
+TIME - exec time: 279.182ms.
+---
+
+3819014
+TIME - comp time: 2.376ms.
+TIME - exec time: 307.066ms.
+---
+
+3819014
+TIME - comp time: 3.79ms.
+TIME - exec time: 306.318ms.
+---
+
+3819014
+TIME - comp time: 3.746ms.
+TIME - exec time: 303.807ms.
+---
+3819014
+TIME - comp time: 3.933ms.
+TIME - exec time: 307.723ms.
+---
+3819014
+TIME - comp time: 3.782ms.
+TIME - exec time: 299.323ms.
+---
+3819014
+TIME - comp time: 3.817ms.
+TIME - exec time: 303.205ms.
+---
+3819014
+TIME - comp time: 3.8160000000000003ms.
+TIME - exec time: 306.703ms.
+---
+3819014
+TIME - comp time: 3.731ms.
+TIME - exec time: 307.081ms.
+---
+3819014
+TIME - comp time: 3.778ms.
+TIME - exec time: 306.747ms.
+---
+3819014
+TIME - comp time: 3.801ms.
+TIME - exec time: 305.402ms.
+---
+3819014
+TIME - comp time: 3.815ms.
+TIME - exec time: 303.5ms.
+---
+3819014
+TIME - comp time: 3.748ms.
+TIME - exec time: 305.996ms.
+---
+ [ms] execution: (5 warmups, 10 runs, 299.3230000 min, 307.723000 max, 305.699000 median, 1.901300% relMAD, 304.948700 avg, 2.537462 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    kuzu
+queryname: join123_10000x10000x10000_0o9999999999999999
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/zipf_10000x10000x10000_1000000_0.9999999999999999
+warmups:   5
+runs:      10
+
+\queryname join123_10000x10000x10000_0o9999999999999999
+55458574
+TIME - comp time: 10.100999999999999ms.
+TIME - exec time: 2687.299ms.
+---
+
+55458574
+TIME - comp time: 1.306ms.
+TIME - exec time: 2708.139ms.
+---
+
+55458574
+TIME - comp time: 3.932ms.
+TIME - exec time: 2697.231ms.
+---
+
+55458574
+TIME - comp time: 3.851ms.
+TIME - exec time: 2744.969ms.
+---
+
+55458574
+TIME - comp time: 3.843ms.
+TIME - exec time: 2702.55ms.
+---
+
+55458574
+TIME - comp time: 3.746ms.
+TIME - exec time: 2706.472ms.
+---
+55458574
+TIME - comp time: 3.737ms.
+TIME - exec time: 2667.383ms.
+---
+55458574
+TIME - comp time: 3.797ms.
+TIME - exec time: 2668.886ms.
+---
+55458574
+TIME - comp time: 3.6950000000000003ms.
+TIME - exec time: 2706.172ms.
+---
+55458574
+TIME - comp time: 3.798ms.
+TIME - exec time: 2721.128ms.
+---
+55458574
+TIME - comp time: 3.7950000000000004ms.
+TIME - exec time: 2667.139ms.
+---
+55458574
+TIME - comp time: 3.836ms.
+TIME - exec time: 2675.984ms.
+---
+55458574
+TIME - comp time: 3.752ms.
+TIME - exec time: 2735.533ms.
+---
+55458574
+TIME - comp time: 3.786ms.
+TIME - exec time: 2662.665ms.
+---
+55458574
+TIME - comp time: 3.7489999999999997ms.
+TIME - exec time: 2682.63ms.
+---
+ [ms] execution: (5 warmups, 10 runs, 2662.6650000 min, 2735.533000 max, 2679.307000 median, 20.987800% relMAD, 2689.399200 avg, 25.925919 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    kuzu
+queryname: join123_10000x10000x10000_1o0999999999999999
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/zipf_10000x10000x10000_1000000_1.0999999999999999
+warmups:   5
+runs:      10
+
+\queryname join123_10000x10000x10000_1o0999999999999999
+480008243
+TIME - comp time: 10.088999999999999ms.
+TIME - exec time: 34650.801ms.
+---
+
+480008243
+TIME - comp time: 1.9469999999999998ms.
+TIME - exec time: 34435.109ms.
+---
+
+480008243
+TIME - comp time: 3.949ms.
+TIME - exec time: 34135.283ms.
+---
+
+480008243
+TIME - comp time: 3.881ms.
+TIME - exec time: 33917.366ms.
+---
+
+480008243
+TIME - comp time: 3.851ms.
+TIME - exec time: 34510.947ms.
+---
+
+480008243
+TIME - comp time: 4.008ms.
+TIME - exec time: 34459.778ms.
+---
+480008243
+TIME - comp time: 3.978ms.
+TIME - exec time: 34299.289ms.
+---
+480008243
+TIME - comp time: 3.95ms.
+TIME - exec time: 34003.173ms.
+---
+480008243
+TIME - comp time: 3.9290000000000003ms.
+TIME - exec time: 34661.059ms.
+---
+480008243
+TIME - comp time: 3.9829999999999997ms.
+TIME - exec time: 34500.912ms.
+---
+480008243
+TIME - comp time: 3.961ms.
+TIME - exec time: 34507.871ms.
+---
+480008243
+TIME - comp time: 3.927ms.
+TIME - exec time: 34971.713ms.
+---
+480008243
+TIME - comp time: 3.844ms.
+TIME - exec time: 34527.85ms.
+---
+480008243
+TIME - comp time: 3.987ms.
+TIME - exec time: 34487.117ms.
+---
+480008243
+TIME - comp time: 4.002ms.
+TIME - exec time: 34387.244ms.
+---
+ [ms] execution: (5 warmups, 10 runs, 34003.1730000 min, 34971.713000 max, 34494.014500 median, 153.280400% relMAD, 34480.600600 avg, 246.564814 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    kuzu
+queryname: join123_10000x10000x10000_1o2
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/zipf_10000x10000x10000_1000000_1.2
+warmups:   5
+runs:      10
+
+\queryname join123_10000x10000x10000_1o2
+2343860478
+TIME - comp time: 10.166ms.
+TIME - exec time: 296.16ms.
+---
+
+2343860478
+TIME - comp time: 1.357ms.
+TIME - exec time: 260.308ms.
+---
+
+2343860478
+TIME - comp time: 1.2ms.
+TIME - exec time: 291.248ms.
+---
+
+2343860478
+TIME - comp time: 3.548ms.
+TIME - exec time: 295.655ms.
+---
+
+2343860478
+TIME - comp time: 3.539ms.
+TIME - exec time: 295.443ms.
+---
+
+2343860478
+TIME - comp time: 3.494ms.
+TIME - exec time: 244.11ms.
+---
+2343860478
+TIME - comp time: 3.449ms.
+TIME - exec time: 245.937ms.
+---
+2343860478
+TIME - comp time: 3.6189999999999998ms.
+TIME - exec time: 292.241ms.
+---
+2343860478
+TIME - comp time: 3.476ms.
+TIME - exec time: 289.449ms.
+---
+2343860478
+TIME - comp time: 3.678ms.
+TIME - exec time: 291.722ms.
+---
+2343860478
+TIME - comp time: 3.503ms.
+TIME - exec time: 289.779ms.
+---
+2343860478
+TIME - comp time: 3.6069999999999998ms.
+TIME - exec time: 291.608ms.
+---
+2343860478
+TIME - comp time: 3.5180000000000002ms.
+TIME - exec time: 250.406ms.
+---
+2343860478
+TIME - comp time: 3.6199999999999997ms.
+TIME - exec time: 294.409ms.
+---
+2343860478
+TIME - comp time: 3.604ms.
+TIME - exec time: 296.8ms.
+---
+ [ms] execution: (5 warmups, 10 runs, 244.1100000 min, 296.800000 max, 290.693500 median, 14.709900% relMAD, 278.646100 avg, 22.117412 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    kuzu
+queryname: join123_10000x10000x10000_1o3
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/zipf_10000x10000x10000_1000000_1.3
+warmups:   5
+runs:      10
+
+\queryname join123_10000x10000x10000_1o3
+7106045294
+TIME - comp time: 10.132000000000001ms.
+TIME - exec time: 563.301ms.
+---
+
+7106045294
+TIME - comp time: 2.533ms.
+TIME - exec time: 535.565ms.
+---
+
+7106045294
+TIME - comp time: 1.207ms.
+TIME - exec time: 559.46ms.
+---
+
+7106045294
+TIME - comp time: 1.301ms.
+TIME - exec time: 563.246ms.
+---
+
+7106045294
+TIME - comp time: 3.721ms.
+TIME - exec time: 543.733ms.
+---
+
+7106045294
+TIME - comp time: 3.598ms.
+TIME - exec time: 509.698ms.
+---
+7106045294
+TIME - comp time: 3.638ms.
+TIME - exec time: 560.145ms.
+---
+7106045294
+TIME - comp time: 3.654ms.
+TIME - exec time: 521.016ms.
+---
+7106045294
+TIME - comp time: 3.699ms.
+TIME - exec time: 526.509ms.
+---
+7106045294
+TIME - comp time: 3.652ms.
+TIME - exec time: 516.092ms.
+---
+7106045294
+TIME - comp time: 3.6750000000000003ms.
+TIME - exec time: 564.524ms.
+---
+7106045294
+TIME - comp time: 3.717ms.
+TIME - exec time: 568.491ms.
+---
+7106045294
+TIME - comp time: 3.884ms.
+TIME - exec time: 562.654ms.
+---
+7106045294
+TIME - comp time: 3.679ms.
+TIME - exec time: 521.171ms.
+---
+7106045294
+TIME - comp time: 3.67ms.
+TIME - exec time: 560.338ms.
+---
+ [ms] execution: (5 warmups, 10 runs, 509.6980000 min, 568.491000 max, 543.327000 median, 22.166600% relMAD, 541.063800 avg, 23.854280 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    kuzu
+queryname: join123_10000x10000x10000_1o4000000000000001
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/zipf_10000x10000x10000_1000000_1.4000000000000001
+warmups:   5
+runs:      10
+
+\queryname join123_10000x10000x10000_1o4000000000000001
+16225322544
+TIME - comp time: 10.19ms.
+TIME - exec time: 967.409ms.
+---
+
+16225322544
+TIME - comp time: 1.565ms.
+TIME - exec time: 919.302ms.
+---
+
+16225322544
+TIME - comp time: 3.752ms.
+TIME - exec time: 914.434ms.
+---
+
+16225322544
+TIME - comp time: 3.7329999999999997ms.
+TIME - exec time: 970.056ms.
+---
+
+16225322544
+TIME - comp time: 3.768ms.
+TIME - exec time: 968.839ms.
+---
+
+16225322544
+TIME - comp time: 3.917ms.
+TIME - exec time: 976.226ms.
+---
+16225322544
+TIME - comp time: 3.71ms.
+TIME - exec time: 927.922ms.
+---
+16225322544
+TIME - comp time: 4.031ms.
+TIME - exec time: 971.046ms.
+---
+16225322544
+TIME - comp time: 3.781ms.
+TIME - exec time: 922.395ms.
+---
+16225322544
+TIME - comp time: 3.684ms.
+TIME - exec time: 978.723ms.
+---
+16225322544
+TIME - comp time: 3.793ms.
+TIME - exec time: 922.114ms.
+---
+16225322544
+TIME - comp time: 3.722ms.
+TIME - exec time: 964.546ms.
+---
+16225322544
+TIME - comp time: 3.743ms.
+TIME - exec time: 969.766ms.
+---
+16225322544
+TIME - comp time: 3.71ms.
+TIME - exec time: 956.312ms.
+---
+16225322544
+TIME - comp time: 3.759ms.
+TIME - exec time: 954.106ms.
+---
+ [ms] execution: (5 warmups, 10 runs, 922.1140000 min, 978.723000 max, 960.429000 median, 17.745800% relMAD, 954.315600 avg, 22.250065 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    kuzu
+queryname: join123_10000x10000x10000_1o5000000000000002
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/zipf_10000x10000x10000_1000000_1.5000000000000002
+warmups:   5
+runs:      10
+
+\queryname join123_10000x10000x10000_1o5000000000000002
+30111862543
+TIME - comp time: 10.249ms.
+TIME - exec time: 1573.259ms.
+---
+
+30111862543
+TIME - comp time: 1.442ms.
+TIME - exec time: 1522.77ms.
+---
+
+30111862543
+TIME - comp time: 3.7150000000000003ms.
+TIME - exec time: 1514.671ms.
+---
+
+30111862543
+TIME - comp time: 3.719ms.
+TIME - exec time: 1560.444ms.
+---
+
+30111862543
+TIME - comp time: 3.7150000000000003ms.
+TIME - exec time: 1565.261ms.
+---
+
+30111862543
+TIME - comp time: 4.004ms.
+TIME - exec time: 1562.73ms.
+---
+30111862543
+TIME - comp time: 3.782ms.
+TIME - exec time: 1563.204ms.
+---
+30111862543
+TIME - comp time: 3.72ms.
+TIME - exec time: 1558.05ms.
+---
+30111862543
+TIME - comp time: 3.6799999999999997ms.
+TIME - exec time: 1561.243ms.
+---
+30111862543
+TIME - comp time: 3.71ms.
+TIME - exec time: 1751.206ms.
+---
+30111862543
+TIME - comp time: 3.733ms.
+TIME - exec time: 1536.831ms.
+---
+30111862543
+TIME - comp time: 3.758ms.
+TIME - exec time: 1572.256ms.
+---
+30111862543
+TIME - comp time: 3.706ms.
+TIME - exec time: 1558.603ms.
+---
+30111862543
+TIME - comp time: 3.813ms.
+TIME - exec time: 1568.105ms.
+---
+30111862543
+TIME - comp time: 3.784ms.
+TIME - exec time: 1561.553ms.
+---
+ [ms] execution: (5 warmups, 10 runs, 1536.8310000 min, 1751.206000 max, 1562.141500 median, 24.122100% relMAD, 1579.378100 avg, 61.087150 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    kuzu
+queryname: join123_10000x10000x10000_1o6000000000000003
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/zipf_10000x10000x10000_1000000_1.6000000000000003
+warmups:   5
+runs:      10
+
+\queryname join123_10000x10000x10000_1o6000000000000003
+48902385563
+TIME - comp time: 10.100999999999999ms.
+TIME - exec time: 2522.898ms.
+---
+
+48902385563
+TIME - comp time: 1.234ms.
+TIME - exec time: 2508.274ms.
+---
+
+48902385563
+TIME - comp time: 3.772ms.
+TIME - exec time: 2515.16ms.
+---
+
+48902385563
+TIME - comp time: 3.753ms.
+TIME - exec time: 2509.004ms.
+---
+
+48902385563
+TIME - comp time: 3.689ms.
+TIME - exec time: 2469.389ms.
+---
+
+48902385563
+TIME - comp time: 3.703ms.
+TIME - exec time: 2472.908ms.
+---
+48902385563
+TIME - comp time: 3.77ms.
+TIME - exec time: 2477.507ms.
+---
+48902385563
+TIME - comp time: 3.597ms.
+TIME - exec time: 2519.036ms.
+---
+48902385563
+TIME - comp time: 3.547ms.
+TIME - exec time: 2467.194ms.
+---
+48902385563
+TIME - comp time: 3.629ms.
+TIME - exec time: 2508.899ms.
+---
+48902385563
+TIME - comp time: 3.561ms.
+TIME - exec time: 2450.241ms.
+---
+48902385563
+TIME - comp time: 3.872ms.
+TIME - exec time: 2504.949ms.
+---
+48902385563
+TIME - comp time: 3.8659999999999997ms.
+TIME - exec time: 2506.388ms.
+---
+48902385563
+TIME - comp time: 3.885ms.
+TIME - exec time: 2498.509ms.
+---
+48902385563
+TIME - comp time: 3.758ms.
+TIME - exec time: 2500.134ms.
+---
+ [ms] execution: (5 warmups, 10 runs, 2450.2410000 min, 2519.036000 max, 2499.321500 median, 17.304700% relMAD, 2490.576500 avg, 22.143927 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    kuzu
+queryname: join123_10000x10000x10000_1o7000000000000004
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/zipf_10000x10000x10000_1000000_1.7000000000000004
+warmups:   5
+runs:      10
+
+\queryname join123_10000x10000x10000_1o7000000000000004
+71688545414
+TIME - comp time: 10.172ms.
+TIME - exec time: 2715.305ms.
+---
+
+71688545414
+TIME - comp time: 1.391ms.
+TIME - exec time: 2650.053ms.
+---
+
+71688545414
+TIME - comp time: 3.775ms.
+TIME - exec time: 2719.364ms.
+---
+
+71688545414
+TIME - comp time: 3.794ms.
+TIME - exec time: 2657.1ms.
+---
+
+71688545414
+TIME - comp time: 3.669ms.
+TIME - exec time: 2712.296ms.
+---
+
+71688545414
+TIME - comp time: 3.5709999999999997ms.
+TIME - exec time: 2705.361ms.
+---
+71688545414
+TIME - comp time: 3.761ms.
+TIME - exec time: 2680.696ms.
+---
+71688545414
+TIME - comp time: 3.6399999999999997ms.
+TIME - exec time: 2718.629ms.
+---
+71688545414
+TIME - comp time: 3.6420000000000003ms.
+TIME - exec time: 2682.157ms.
+---
+71688545414
+TIME - comp time: 3.635ms.
+TIME - exec time: 2696.449ms.
+---
+71688545414
+TIME - comp time: 3.713ms.
+TIME - exec time: 2693.445ms.
+---
+71688545414
+TIME - comp time: 3.722ms.
+TIME - exec time: 2657.028ms.
+---
+71688545414
+TIME - comp time: 3.7390000000000003ms.
+TIME - exec time: 2714.595ms.
+---
+71688545414
+TIME - comp time: 3.6069999999999998ms.
+TIME - exec time: 2692.724ms.
+---
+71688545414
+TIME - comp time: 3.646ms.
+TIME - exec time: 2713.201ms.
+---
+ [ms] execution: (5 warmups, 10 runs, 2657.0280000 min, 2718.629000 max, 2694.947000 median, 14.218500% relMAD, 2695.428500 avg, 18.856776 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    kuzu
+queryname: join123_10000x10000x10000_1o8000000000000005
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/zipf_10000x10000x10000_1000000_1.8000000000000005
+warmups:   5
+runs:      10
+
+\queryname join123_10000x10000x10000_1o8000000000000005
+97690079911
+TIME - comp time: 10.132ms.
+TIME - exec time: 3953.565ms.
+---
+
+97690079911
+TIME - comp time: 1.28ms.
+TIME - exec time: 3943.948ms.
+---
+
+97690079911
+TIME - comp time: 1.238ms.
+TIME - exec time: 3936.895ms.
+---
+
+97690079911
+TIME - comp time: 1.225ms.
+TIME - exec time: 3990.745ms.
+---
+
+97690079911
+TIME - comp time: 1.212ms.
+TIME - exec time: 4006.025ms.
+---
+
+97690079911
+TIME - comp time: 3.6430000000000002ms.
+TIME - exec time: 3948.456ms.
+---
+97690079911
+TIME - comp time: 3.709ms.
+TIME - exec time: 3955.168ms.
+---
+97690079911
+TIME - comp time: 3.835ms.
+TIME - exec time: 4025.594ms.
+---
+97690079911
+TIME - comp time: 3.7560000000000002ms.
+TIME - exec time: 3943.314ms.
+---
+97690079911
+TIME - comp time: 3.676ms.
+TIME - exec time: 3962.37ms.
+---
+97690079911
+TIME - comp time: 3.666ms.
+TIME - exec time: 3989.88ms.
+---
+97690079911
+TIME - comp time: 3.741ms.
+TIME - exec time: 3935.558ms.
+---
+97690079911
+TIME - comp time: 3.662ms.
+TIME - exec time: 3942.561ms.
+---
+97690079911
+TIME - comp time: 3.648ms.
+TIME - exec time: 3958.401ms.
+---
+97690079911
+TIME - comp time: 3.7249999999999996ms.
+TIME - exec time: 3996.118ms.
+---
+ [ms] execution: (5 warmups, 10 runs, 3935.5580000 min, 4025.594000 max, 3956.784500 median, 20.730600% relMAD, 3965.742000 avg, 28.896232 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    kuzu
+queryname: join123_10000x10000x10000_1o9000000000000006
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/zipf_10000x10000x10000_1000000_1.9000000000000006
+warmups:   5
+runs:      10
+
+\queryname join123_10000x10000x10000_1o9000000000000006
+126612713005
+TIME - comp time: 10.199ms.
+TIME - exec time: 4582.219ms.
+---
+
+126612713005
+TIME - comp time: 1.401ms.
+TIME - exec time: 4551.473ms.
+---
+
+126612713005
+TIME - comp time: 1.235ms.
+TIME - exec time: 4610.395ms.
+---
+
+126612713005
+TIME - comp time: 1.1929999999999998ms.
+TIME - exec time: 4582.065ms.
+---
+
+126612713005
+TIME - comp time: 3.908ms.
+TIME - exec time: 4532.318ms.
+---
+
+126612713005
+TIME - comp time: 3.6830000000000003ms.
+TIME - exec time: 4564.829ms.
+---
+126612713005
+TIME - comp time: 3.683ms.
+TIME - exec time: 4608.136ms.
+---
+126612713005
+TIME - comp time: 3.75ms.
+TIME - exec time: 4544.275ms.
+---
+126612713005
+TIME - comp time: 3.701ms.
+TIME - exec time: 4549.623ms.
+---
+126612713005
+TIME - comp time: 3.706ms.
+TIME - exec time: 4622.901ms.
+---
+126612713005
+TIME - comp time: 3.586ms.
+TIME - exec time: 4608.19ms.
+---
+126612713005
+TIME - comp time: 3.6420000000000003ms.
+TIME - exec time: 4583.089ms.
+---
+126612713005
+TIME - comp time: 3.612ms.
+TIME - exec time: 4624.422ms.
+---
+126612713005
+TIME - comp time: 3.859ms.
+TIME - exec time: 4592.932ms.
+---
+126612713005
+TIME - comp time: 3.762ms.
+TIME - exec time: 4575.461ms.
+---
+ [ms] execution: (5 warmups, 10 runs, 4544.2750000 min, 4624.422000 max, 4588.010500 median, 23.930400% relMAD, 4587.385800 avg, 28.831307 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)

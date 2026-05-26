@@ -1,0 +1,185 @@
+\documentclass{standalone}
+
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage{pgfplots}
+\usepgfplotslibrary{units,groupplots}
+
+\definecolor{wblack}{RGB}{0, 0, 0}
+\definecolor{worange}{RGB}{230, 159, 0}
+\definecolor{wskyblue}{RGB}{86, 180, 233}
+\definecolor{wgreen}{RGB}{0, 158, 115}
+\definecolor{wyellow}{RGB}{240, 228, 66}
+\definecolor{wblue}{RGB}{0, 114, 178}
+\definecolor{wred}{RGB}{213, 94, 0}
+\definecolor{wpurple}{RGB}{204, 121, 167}
+
+\pgfplotsset{
+    compat=newest,
+    width=6cm,
+    height=22mm,
+    scale only axis=true,
+    scaled ticks=false,
+    xticklabel style={/pgf/number format/fixed},
+    xlabel shift=-4pt,
+    %max space between ticks=25pt,
+    %try min ticks=5,
+    %every axis plot/.append style={thick},
+    %tick style={black, thick}
+}
+
+\newcommand{\maybePlot}[2][]{%
+  \IfFileExists{#2}{%
+    \addplot[#1] table [col sep=comma, x index=0, y index=1] {#2};
+  }{}
+}
+%
+\tikzset{
+    acyclic/.style={mark=x, mark size=1, only marks, worange},
+    cyclic/.style= {mark=*, mark size=.5, only marks, wblue},
+    ssb1/.style=   {mark=asterisk, mark size=1, only marks, wred},
+    ssb10/.style=  {mark=asterisk, mark size=1, only marks, wgreen},
+}
+%
+\pgfplotstableread{
+0.1 0.1
+140000 140000
+}\diagonalTable
+
+\begin{document}
+
+\usetikzlibrary{plotmarks}
+%
+\begin{tikzpicture}
+
+\definecolor{darkgray176}{RGB}{176,176,176}
+
+\begin{groupplot}[
+  group style={
+    group size=1 by 4,
+    vertical sep=0cm,
+    group name=ce plots,
+  },
+  xlabel={(flat) system's execution time [ms]},
+  xlabel style={yshift=1mm},
+  ylabel style={align=center},
+  xmode=log,
+  ymode=log,
+  xmin=0.1, xmax=100000,
+  ymin=0.1, ymax=100000,
+  log basis x=10,
+  log basis y=10,
+  xmajorgrids=true,
+  ymajorgrids=true,
+  x grid style={darkgray176},
+  y grid style={darkgray176},
+  tick align=outside,
+  tick pos=left,
+  xtick style={color=black},
+  ytick style={color=black},
+  xtick={0.1,10,1000,100000},
+  ytick={0.1,10,1000},
+]
+\nextgroupplot[
+    legend cell align={left},
+    legend columns=3,
+    legend style={
+      fill opacity=0,
+      text opacity=1,
+      anchor=center,
+      at={(.5,1.1)},
+      cells={align=left},
+      draw=none,
+      legend image post style={scale=3},
+      /tikz/every even column/.append style={column sep=1cm},
+    },
+    y grid style={darkgray176},
+    %ylabel={fact. execution\\time [ms]},
+    xticklabels={},
+    xlabel={},
+]
+\maybePlot[acyclic]     {bench/results/csv/ce/runtimes/runtime_distribution_acyclic_CodegenFlat_pvbic.csv};
+\addlegendentry{acyclic CE}
+\maybePlot[cyclic]      {bench/results/csv/ce/runtimes/runtime_distribution_cyclic_CodegenFlat_pvbic.csv};
+\addlegendentry{cyclic CE}
+%\maybePlot[ssb1]        {bench/results/csv/ssb/sf1/runtime_distribution_flat.csv};
+%\addlegendentry{SSB SF=1}
+\maybePlot[ssb10]       {bench/results/csv/ssb/sf10/runtime_distribution_flat.csv};
+\addlegendentry{SSB SF=10}
+\addplot [black] table {\diagonalTable};
+
+\node[anchor=north east] at (rel axis cs:.9,1) {{\tiny Flat better} $\leftarrow$};
+\node[anchor=north west, rotate=-90] at (rel axis cs:1,0.9) {$\rightarrow$ {\tiny Factorized better}};
+\node[anchor=north west, draw, minimum width=18mm] at (rel axis cs:0,1) {Flat};
+
+\nextgroupplot[
+    y grid style={darkgray176},
+    xticklabels={},
+    xlabel={},
+]
+%
+\maybePlot[acyclic] {bench/results/csv/ce/runtimes/runtime_distribution_acyclic_umbra_result.csv};
+\maybePlot[cyclic]  {bench/results/csv/ce/runtimes/runtime_distribution_cyclic_umbra_result.csv};
+\maybePlot[ssb1]    {bench/results/csv/ssb/sf1/runtime_distribution_umbra.csv};
+\maybePlot[ssb10]   {bench/results/csv/ssb/sf10/runtime_distribution_umbra.csv};
+\addplot [black] table {\diagonalTable};
+
+\node[anchor=north east] at (rel axis cs:.9,1) {{\tiny Umbra better} $\leftarrow$};
+\node[anchor=north west, rotate=-90] at (rel axis cs:1,0.9) {$\rightarrow$ {\tiny Factorized better}};
+\node[anchor=north west, draw, minimum width=18mm] at (rel axis cs:0,1) {Umbra};
+
+\nextgroupplot[
+    y grid style={darkgray176},
+    xticklabels={},
+    xlabel={},
+    ylabel={execution time of our factorized engine [ms]},
+    ylabel style={xshift=10mm},
+]
+%
+\maybePlot[acyclic] {bench/results/csv/ce/runtimes/runtime_distribution_acyclic_umbra_le.csv};
+\maybePlot[cyclic]  {bench/results/csv/ce/runtimes/runtime_distribution_cyclic_umbra_le.csv};
+\maybePlot[ssb1]    {bench/results/csv/ssb/sf1/runtime_distribution_umbra_le.csv};
+\maybePlot[ssb10]   {bench/results/csv/ssb/sf10/runtime_distribution_umbra_le.csv};
+\addplot [black] table {\diagonalTable};
+
+\node[anchor=north east] at (rel axis cs:.9,1) {{\tiny Umbra LE better} $\leftarrow$};
+\node[anchor=north west, rotate=-90] at (rel axis cs:1,0.9) {$\rightarrow$ {\tiny Factorized better}};
+\node[anchor=north west, draw, minimum width=18mm] at (rel axis cs:0,1) {Umbra LE};
+
+
+\nextgroupplot[
+    y grid style={darkgray176},
+%    xticklabels={},
+%    xlabel={},
+]
+%
+\maybePlot[acyclic] {bench/results/csv/ce/runtimes/runtime_distribution_acyclic_duckdb.csv};
+\maybePlot[cyclic]  {bench/results/csv/ce/runtimes/runtime_distribution_cyclic_duckdb.csv};
+\maybePlot[ssb1]    {bench/results/csv/ssb/sf1/runtime_distribution_duckdb.csv};
+\maybePlot[ssb10]   {bench/results/csv/ssb/sf10/runtime_distribution_duckdb.csv};
+\addplot [black] table {\diagonalTable};
+%
+\node[anchor=north east] at (rel axis cs:.9,1) {{\tiny DuckDB better} $\leftarrow$};
+\node[anchor=north west, rotate=-90] at (rel axis cs:1,0.9) {$\rightarrow$ {\tiny Factorized better}};
+\node[anchor=north west, draw, minimum width=18mm] at (rel axis cs:0,1) {DuckDB};
+\iffalse
+\nextgroupplot[
+    y grid style={darkgray176},
+]
+%
+\maybePlot[acyclic] {bench/results/csv/ce/runtimes/runtime_distribution_acyclic_naive.csv};
+\maybePlot[cyclic]  {bench/results/csv/ce/runtimes/runtime_distribution_cyclic_naive.csv};
+\maybePlot[ssb1]    {bench/results/csv/ssb/sf1/runtime_distribution_naive.csv};
+\maybePlot[ssb10]   {bench/results/csv/ssb/sf10/runtime_distribution_naive.csv};
+\addplot [black] table {\diagonalTable};
+%
+\node[anchor=north east] at (rel axis cs:.9,1) {{\tiny Na\"{i}ve better} $\leftarrow$};
+\node[anchor=north west, rotate=-90] at (rel axis cs:1,0.9) {$\rightarrow$ {\tiny Factorized better}};
+\node[anchor=north west, draw, minimum width=18mm] at (rel axis cs:0,1) {Na\"{i}ve};
+\fi
+\end{groupplot}
+
+\end{tikzpicture}
+\end{document}

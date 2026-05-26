@@ -1,0 +1,24 @@
+set(TABLE_FILES
+   factDB/gen/tables/table.cpp
+   factDB/gen/tables/table_KRelationTest.cpp
+   factDB/gen/tables/table_KRelationTestThree.cpp
+   factDB/gen/tables/table_KPersonKnowsPerson.cpp
+   factDB/gen/tables/table_KPerson.cpp
+   factDB/gen/tables/table_dblp.cpp
+   factDB/gen/tables/table_epinions.cpp
+   factDB/gen/tables/table_hetio.cpp
+   factDB/gen/tables/table_imdb.cpp
+   factDB/gen/tables/table_watdiv.cpp
+   factDB/gen/tables/table_yago.cpp
+   factDB/gen/tables/table_artificial1.cpp
+   factDB/gen/tables/table_artificial2.cpp
+   factDB/gen/tables/table_artificial3.cpp
+   factDB/gen/tables/table_KRelationTestMany.cpp
+   factDB/gen/tables/table_date.cpp
+   factDB/gen/tables/table_supplier.cpp
+   factDB/gen/tables/table_customer.cpp
+   factDB/gen/tables/table_part.cpp
+   factDB/gen/tables/table_lineorder.cpp
+   factDB/gen/tables/table_WINF.cpp
+   PARENT_SCOPE
+)

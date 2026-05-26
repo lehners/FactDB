@@ -1,0 +1,4150 @@
+
+
+driver:    lmfao
+queryname: join123_100000x100000x100000_2
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_50000x50000x50000
+warmups:   5
+runs:      10
+
+\queryname join123_100000x100000x100000_2
+run lmfao
+Data loading: 21ms.
+Data sorting: 19ms.
+Data process: 20ms.
+Size of each computed View: 
+V0: 43284
+V1: 41138
+V2: 1
+The count is: 400631
+---
+
+run lmfao
+Data loading: 21ms.
+Data sorting: 11ms.
+Data process: 18ms.
+Size of each computed View: 
+V0: 43284
+V1: 41138
+V2: 1
+The count is: 400631
+---
+
+run lmfao
+Data loading: 20ms.
+Data sorting: 10ms.
+Data process: 20ms.
+Size of each computed View: 
+V0: 43284
+V1: 41138
+V2: 1
+The count is: 400631
+---
+
+run lmfao
+Data loading: 20ms.
+Data sorting: 12ms.
+Data process: 21ms.
+Size of each computed View: 
+V0: 43284
+V1: 41138
+V2: 1
+The count is: 400631
+---
+
+run lmfao
+Data loading: 20ms.
+Data sorting: 20ms.
+Data process: 18ms.
+Size of each computed View: 
+V0: 43284
+V1: 41138
+V2: 1
+The count is: 400631
+---
+
+run lmfao
+Data loading: 22ms.
+Data sorting: 12ms.
+Data process: 18ms.
+Size of each computed View: 
+V0: 43284
+V1: 41138
+V2: 1
+The count is: 400631
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 11ms.
+Data process: 18ms.
+Size of each computed View: 
+V0: 43284
+V1: 41138
+V2: 1
+The count is: 400631
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 11ms.
+Data process: 18ms.
+Size of each computed View: 
+V0: 43284
+V1: 41138
+V2: 1
+The count is: 400631
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 8ms.
+Data process: 20ms.
+Size of each computed View: 
+V0: 43284
+V1: 41138
+V2: 1
+The count is: 400631
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 13ms.
+Data process: 19ms.
+Size of each computed View: 
+V0: 43284
+V1: 41138
+V2: 1
+The count is: 400631
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 12ms.
+Data process: 19ms.
+Size of each computed View: 
+V0: 43284
+V1: 41138
+V2: 1
+The count is: 400631
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 13ms.
+Data process: 18ms.
+Size of each computed View: 
+V0: 43284
+V1: 41138
+V2: 1
+The count is: 400631
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 13ms.
+Data process: 18ms.
+Size of each computed View: 
+V0: 43284
+V1: 41138
+V2: 1
+The count is: 400631
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 10ms.
+Data process: 18ms.
+Size of each computed View: 
+V0: 43284
+V1: 41138
+V2: 1
+The count is: 400631
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 23ms.
+Data process: 18ms.
+Size of each computed View: 
+V0: 43284
+V1: 41138
+V2: 1
+The count is: 400631
+---
+ [ms] execution: (5 warmups, 10 runs, 48.0000000 min, 60.000000 max, 50.500000 median, 2.300000% relMAD, 51.100000 avg, 3.541814 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    lmfao
+queryname: join123_100000x100000x100000_4
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_25000x25000x25000
+warmups:   5
+runs:      10
+
+\queryname join123_100000x100000x100000_4
+run lmfao
+Data loading: 23ms.
+Data sorting: 11ms.
+Data process: 17ms.
+Size of each computed View: 
+V0: 24540
+V1: 24519
+V2: 1
+The count is: 1.59782e+06
+---
+
+run lmfao
+Data loading: 22ms.
+Data sorting: 9ms.
+Data process: 17ms.
+Size of each computed View: 
+V0: 24540
+V1: 24519
+V2: 1
+The count is: 1.59782e+06
+---
+
+run lmfao
+Data loading: 22ms.
+Data sorting: 22ms.
+Data process: 16ms.
+Size of each computed View: 
+V0: 24540
+V1: 24519
+V2: 1
+The count is: 1.59782e+06
+---
+
+run lmfao
+Data loading: 23ms.
+Data sorting: 9ms.
+Data process: 16ms.
+Size of each computed View: 
+V0: 24540
+V1: 24519
+V2: 1
+The count is: 1.59782e+06
+---
+
+run lmfao
+Data loading: 23ms.
+Data sorting: 7ms.
+Data process: 17ms.
+Size of each computed View: 
+V0: 24540
+V1: 24519
+V2: 1
+The count is: 1.59782e+06
+---
+
+run lmfao
+Data loading: 22ms.
+Data sorting: 15ms.
+Data process: 15ms.
+Size of each computed View: 
+V0: 24540
+V1: 24519
+V2: 1
+The count is: 1.59782e+06
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 8ms.
+Data process: 16ms.
+Size of each computed View: 
+V0: 24540
+V1: 24519
+V2: 1
+The count is: 1.59782e+06
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 8ms.
+Data process: 18ms.
+Size of each computed View: 
+V0: 24540
+V1: 24519
+V2: 1
+The count is: 1.59782e+06
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 16ms.
+Data process: 16ms.
+Size of each computed View: 
+V0: 24540
+V1: 24519
+V2: 1
+The count is: 1.59782e+06
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 11ms.
+Data process: 18ms.
+Size of each computed View: 
+V0: 24540
+V1: 24519
+V2: 1
+The count is: 1.59782e+06
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 15ms.
+Data process: 16ms.
+Size of each computed View: 
+V0: 24540
+V1: 24519
+V2: 1
+The count is: 1.59782e+06
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 9ms.
+Data process: 18ms.
+Size of each computed View: 
+V0: 24540
+V1: 24519
+V2: 1
+The count is: 1.59782e+06
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 10ms.
+Data process: 17ms.
+Size of each computed View: 
+V0: 24540
+V1: 24519
+V2: 1
+The count is: 1.59782e+06
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 20ms.
+Data process: 15ms.
+Size of each computed View: 
+V0: 24540
+V1: 24519
+V2: 1
+The count is: 1.59782e+06
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 11ms.
+Data process: 15ms.
+Size of each computed View: 
+V0: 24540
+V1: 24519
+V2: 1
+The count is: 1.59782e+06
+---
+ [ms] execution: (5 warmups, 10 runs, 46.0000000 min, 57.000000 max, 50.000000 median, 2.700000% relMAD, 50.700000 avg, 3.335000 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    lmfao
+queryname: join123_100000x100000x100000_6
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_16666x16666x16666
+warmups:   5
+runs:      10
+
+\queryname join123_100000x100000x100000_6
+run lmfao
+Data loading: 24ms.
+Data sorting: 24ms.
+Data process: 14ms.
+Size of each computed View: 
+V0: 16623
+V1: 16616
+V2: 1
+The count is: 3.59672e+06
+---
+
+run lmfao
+Data loading: 25ms.
+Data sorting: 7ms.
+Data process: 17ms.
+Size of each computed View: 
+V0: 16623
+V1: 16616
+V2: 1
+The count is: 3.59672e+06
+---
+
+run lmfao
+Data loading: 24ms.
+Data sorting: 20ms.
+Data process: 14ms.
+Size of each computed View: 
+V0: 16623
+V1: 16616
+V2: 1
+The count is: 3.59672e+06
+---
+
+run lmfao
+Data loading: 23ms.
+Data sorting: 14ms.
+Data process: 17ms.
+Size of each computed View: 
+V0: 16623
+V1: 16616
+V2: 1
+The count is: 3.59672e+06
+---
+
+run lmfao
+Data loading: 23ms.
+Data sorting: 11ms.
+Data process: 14ms.
+Size of each computed View: 
+V0: 16623
+V1: 16616
+V2: 1
+The count is: 3.59672e+06
+---
+
+run lmfao
+Data loading: 24ms.
+Data sorting: 22ms.
+Data process: 15ms.
+Size of each computed View: 
+V0: 16623
+V1: 16616
+V2: 1
+The count is: 3.59672e+06
+---
+run lmfao
+Data loading: 23ms.
+Data sorting: 11ms.
+Data process: 15ms.
+Size of each computed View: 
+V0: 16623
+V1: 16616
+V2: 1
+The count is: 3.59672e+06
+---
+run lmfao
+Data loading: 23ms.
+Data sorting: 9ms.
+Data process: 16ms.
+Size of each computed View: 
+V0: 16623
+V1: 16616
+V2: 1
+The count is: 3.59672e+06
+---
+run lmfao
+Data loading: 23ms.
+Data sorting: 11ms.
+Data process: 13ms.
+Size of each computed View: 
+V0: 16623
+V1: 16616
+V2: 1
+The count is: 3.59672e+06
+---
+run lmfao
+Data loading: 23ms.
+Data sorting: 8ms.
+Data process: 16ms.
+Size of each computed View: 
+V0: 16623
+V1: 16616
+V2: 1
+The count is: 3.59672e+06
+---
+run lmfao
+Data loading: 23ms.
+Data sorting: 9ms.
+Data process: 16ms.
+Size of each computed View: 
+V0: 16623
+V1: 16616
+V2: 1
+The count is: 3.59672e+06
+---
+run lmfao
+Data loading: 24ms.
+Data sorting: 10ms.
+Data process: 13ms.
+Size of each computed View: 
+V0: 16623
+V1: 16616
+V2: 1
+The count is: 3.59672e+06
+---
+run lmfao
+Data loading: 23ms.
+Data sorting: 16ms.
+Data process: 14ms.
+Size of each computed View: 
+V0: 16623
+V1: 16616
+V2: 1
+The count is: 3.59672e+06
+---
+run lmfao
+Data loading: 23ms.
+Data sorting: 10ms.
+Data process: 14ms.
+Size of each computed View: 
+V0: 16623
+V1: 16616
+V2: 1
+The count is: 3.59672e+06
+---
+run lmfao
+Data loading: 23ms.
+Data sorting: 10ms.
+Data process: 17ms.
+Size of each computed View: 
+V0: 16623
+V1: 16616
+V2: 1
+The count is: 3.59672e+06
+---
+ [ms] execution: (5 warmups, 10 runs, 47.0000000 min, 61.000000 max, 48.000000 median, 2.500000% relMAD, 49.700000 avg, 4.398232 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    lmfao
+queryname: join123_100000x100000x100000_8
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_12500x12500x12500
+warmups:   5
+runs:      10
+
+\queryname join123_100000x100000x100000_8
+run lmfao
+Data loading: 23ms.
+Data sorting: 20ms.
+Data process: 13ms.
+Size of each computed View: 
+V0: 12494
+V1: 12495
+V2: 1
+The count is: 6.38398e+06
+---
+
+run lmfao
+Data loading: 22ms.
+Data sorting: 13ms.
+Data process: 13ms.
+Size of each computed View: 
+V0: 12494
+V1: 12495
+V2: 1
+The count is: 6.38398e+06
+---
+
+run lmfao
+Data loading: 22ms.
+Data sorting: 10ms.
+Data process: 12ms.
+Size of each computed View: 
+V0: 12494
+V1: 12495
+V2: 1
+The count is: 6.38398e+06
+---
+
+run lmfao
+Data loading: 22ms.
+Data sorting: 14ms.
+Data process: 13ms.
+Size of each computed View: 
+V0: 12494
+V1: 12495
+V2: 1
+The count is: 6.38398e+06
+---
+
+run lmfao
+Data loading: 21ms.
+Data sorting: 8ms.
+Data process: 15ms.
+Size of each computed View: 
+V0: 12494
+V1: 12495
+V2: 1
+The count is: 6.38398e+06
+---
+
+run lmfao
+Data loading: 22ms.
+Data sorting: 8ms.
+Data process: 15ms.
+Size of each computed View: 
+V0: 12494
+V1: 12495
+V2: 1
+The count is: 6.38398e+06
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 21ms.
+Data process: 12ms.
+Size of each computed View: 
+V0: 12494
+V1: 12495
+V2: 1
+The count is: 6.38398e+06
+---
+run lmfao
+Data loading: 23ms.
+Data sorting: 7ms.
+Data process: 15ms.
+Size of each computed View: 
+V0: 12494
+V1: 12495
+V2: 1
+The count is: 6.38398e+06
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 18ms.
+Data process: 12ms.
+Size of each computed View: 
+V0: 12494
+V1: 12495
+V2: 1
+The count is: 6.38398e+06
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 8ms.
+Data process: 14ms.
+Size of each computed View: 
+V0: 12494
+V1: 12495
+V2: 1
+The count is: 6.38398e+06
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 9ms.
+Data process: 13ms.
+Size of each computed View: 
+V0: 12494
+V1: 12495
+V2: 1
+The count is: 6.38398e+06
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 8ms.
+Data process: 16ms.
+Size of each computed View: 
+V0: 12494
+V1: 12495
+V2: 1
+The count is: 6.38398e+06
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 12ms.
+Data process: 12ms.
+Size of each computed View: 
+V0: 12494
+V1: 12495
+V2: 1
+The count is: 6.38398e+06
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 9ms.
+Data process: 15ms.
+Size of each computed View: 
+V0: 12494
+V1: 12495
+V2: 1
+The count is: 6.38398e+06
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 8ms.
+Data process: 14ms.
+Size of each computed View: 
+V0: 12494
+V1: 12495
+V2: 1
+The count is: 6.38398e+06
+---
+ [ms] execution: (5 warmups, 10 runs, 43.0000000 min, 55.000000 max, 45.000000 median, 2.200000% relMAD, 46.200000 avg, 3.823901 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    lmfao
+queryname: join123_100000x100000x100000_10
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_10000x10000x10000
+warmups:   5
+runs:      10
+
+\queryname join123_100000x100000x100000_10
+run lmfao
+Data loading: 19ms.
+Data sorting: 14ms.
+Data process: 12ms.
+Size of each computed View: 
+V0: 9999
+V1: 9999
+V2: 1
+The count is: 1.00093e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 8ms.
+Data process: 14ms.
+Size of each computed View: 
+V0: 9999
+V1: 9999
+V2: 1
+The count is: 1.00093e+07
+---
+
+run lmfao
+Data loading: 18ms.
+Data sorting: 12ms.
+Data process: 12ms.
+Size of each computed View: 
+V0: 9999
+V1: 9999
+V2: 1
+The count is: 1.00093e+07
+---
+
+run lmfao
+Data loading: 17ms.
+Data sorting: 16ms.
+Data process: 12ms.
+Size of each computed View: 
+V0: 9999
+V1: 9999
+V2: 1
+The count is: 1.00093e+07
+---
+
+run lmfao
+Data loading: 18ms.
+Data sorting: 16ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 9999
+V1: 9999
+V2: 1
+The count is: 1.00093e+07
+---
+
+run lmfao
+Data loading: 18ms.
+Data sorting: 12ms.
+Data process: 12ms.
+Size of each computed View: 
+V0: 9999
+V1: 9999
+V2: 1
+The count is: 1.00093e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 27ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 9999
+V1: 9999
+V2: 1
+The count is: 1.00093e+07
+---
+run lmfao
+Data loading: 18ms.
+Data sorting: 21ms.
+Data process: 12ms.
+Size of each computed View: 
+V0: 9999
+V1: 9999
+V2: 1
+The count is: 1.00093e+07
+---
+run lmfao
+Data loading: 18ms.
+Data sorting: 13ms.
+Data process: 12ms.
+Size of each computed View: 
+V0: 9999
+V1: 9999
+V2: 1
+The count is: 1.00093e+07
+---
+run lmfao
+Data loading: 18ms.
+Data sorting: 14ms.
+Data process: 12ms.
+Size of each computed View: 
+V0: 9999
+V1: 9999
+V2: 1
+The count is: 1.00093e+07
+---
+run lmfao
+Data loading: 18ms.
+Data sorting: 11ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 9999
+V1: 9999
+V2: 1
+The count is: 1.00093e+07
+---
+run lmfao
+Data loading: 18ms.
+Data sorting: 15ms.
+Data process: 14ms.
+Size of each computed View: 
+V0: 9999
+V1: 9999
+V2: 1
+The count is: 1.00093e+07
+---
+run lmfao
+Data loading: 18ms.
+Data sorting: 19ms.
+Data process: 12ms.
+Size of each computed View: 
+V0: 9999
+V1: 9999
+V2: 1
+The count is: 1.00093e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 8ms.
+Data process: 14ms.
+Size of each computed View: 
+V0: 9999
+V1: 9999
+V2: 1
+The count is: 1.00093e+07
+---
+run lmfao
+Data loading: 18ms.
+Data sorting: 19ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 9999
+V1: 9999
+V2: 1
+The count is: 1.00093e+07
+---
+ [ms] execution: (5 warmups, 10 runs, 40.0000000 min, 57.000000 max, 45.500000 median, 4.200000% relMAD, 46.200000 avg, 5.266245 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    lmfao
+queryname: join123_100000x100000x100000_12
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_8333x8333x8333
+warmups:   5
+runs:      10
+
+\queryname join123_100000x100000x100000_12
+run lmfao
+Data loading: 19ms.
+Data sorting: 11ms.
+Data process: 13ms.
+Size of each computed View: 
+V0: 8333
+V1: 8333
+V2: 1
+The count is: 1.43944e+07
+---
+
+run lmfao
+Data loading: 18ms.
+Data sorting: 12ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 8333
+V1: 8333
+V2: 1
+The count is: 1.43944e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 10ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 8333
+V1: 8333
+V2: 1
+The count is: 1.43944e+07
+---
+
+run lmfao
+Data loading: 18ms.
+Data sorting: 18ms.
+Data process: 12ms.
+Size of each computed View: 
+V0: 8333
+V1: 8333
+V2: 1
+The count is: 1.43944e+07
+---
+
+run lmfao
+Data loading: 18ms.
+Data sorting: 15ms.
+Data process: 12ms.
+Size of each computed View: 
+V0: 8333
+V1: 8333
+V2: 1
+The count is: 1.43944e+07
+---
+
+run lmfao
+Data loading: 18ms.
+Data sorting: 22ms.
+Data process: 15ms.
+Size of each computed View: 
+V0: 8333
+V1: 8333
+V2: 1
+The count is: 1.43944e+07
+---
+run lmfao
+Data loading: 18ms.
+Data sorting: 10ms.
+Data process: 12ms.
+Size of each computed View: 
+V0: 8333
+V1: 8333
+V2: 1
+The count is: 1.43944e+07
+---
+run lmfao
+Data loading: 18ms.
+Data sorting: 15ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 8333
+V1: 8333
+V2: 1
+The count is: 1.43944e+07
+---
+run lmfao
+Data loading: 18ms.
+Data sorting: 10ms.
+Data process: 14ms.
+Size of each computed View: 
+V0: 8333
+V1: 8333
+V2: 1
+The count is: 1.43944e+07
+---
+run lmfao
+Data loading: 18ms.
+Data sorting: 22ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 8333
+V1: 8333
+V2: 1
+The count is: 1.43944e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 7ms.
+Data process: 14ms.
+Size of each computed View: 
+V0: 8333
+V1: 8333
+V2: 1
+The count is: 1.43944e+07
+---
+run lmfao
+Data loading: 18ms.
+Data sorting: 8ms.
+Data process: 13ms.
+Size of each computed View: 
+V0: 8333
+V1: 8333
+V2: 1
+The count is: 1.43944e+07
+---
+run lmfao
+Data loading: 18ms.
+Data sorting: 14ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 8333
+V1: 8333
+V2: 1
+The count is: 1.43944e+07
+---
+run lmfao
+Data loading: 18ms.
+Data sorting: 11ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 8333
+V1: 8333
+V2: 1
+The count is: 1.43944e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 8ms.
+Data process: 14ms.
+Size of each computed View: 
+V0: 8333
+V1: 8333
+V2: 1
+The count is: 1.43944e+07
+---
+ [ms] execution: (5 warmups, 10 runs, 39.0000000 min, 55.000000 max, 41.500000 median, 3.600000% relMAD, 43.400000 avg, 5.399588 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    lmfao
+queryname: join123_100000x100000x100000_14
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_7142x7142x7142
+warmups:   5
+runs:      10
+
+\queryname join123_100000x100000x100000_14
+run lmfao
+Data loading: 19ms.
+Data sorting: 13ms.
+Data process: 12ms.
+Size of each computed View: 
+V0: 7142
+V1: 7142
+V2: 1
+The count is: 1.95585e+07
+---
+
+run lmfao
+Data loading: 18ms.
+Data sorting: 8ms.
+Data process: 13ms.
+Size of each computed View: 
+V0: 7142
+V1: 7142
+V2: 1
+The count is: 1.95585e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 11ms.
+Data process: 12ms.
+Size of each computed View: 
+V0: 7142
+V1: 7142
+V2: 1
+The count is: 1.95585e+07
+---
+
+run lmfao
+Data loading: 18ms.
+Data sorting: 10ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 7142
+V1: 7142
+V2: 1
+The count is: 1.95585e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 9ms.
+Data process: 12ms.
+Size of each computed View: 
+V0: 7142
+V1: 7142
+V2: 1
+The count is: 1.95585e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 12ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 7142
+V1: 7142
+V2: 1
+The count is: 1.95585e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 19ms.
+Data process: 14ms.
+Size of each computed View: 
+V0: 7142
+V1: 7142
+V2: 1
+The count is: 1.95585e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 14ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 7142
+V1: 7142
+V2: 1
+The count is: 1.95585e+07
+---
+run lmfao
+Data loading: 18ms.
+Data sorting: 10ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 7142
+V1: 7142
+V2: 1
+The count is: 1.95585e+07
+---
+run lmfao
+Data loading: 18ms.
+Data sorting: 12ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 7142
+V1: 7142
+V2: 1
+The count is: 1.95585e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 9ms.
+Data process: 12ms.
+Size of each computed View: 
+V0: 7142
+V1: 7142
+V2: 1
+The count is: 1.95585e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 8ms.
+Data process: 12ms.
+Size of each computed View: 
+V0: 7142
+V1: 7142
+V2: 1
+The count is: 1.95585e+07
+---
+run lmfao
+Data loading: 18ms.
+Data sorting: 12ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 7142
+V1: 7142
+V2: 1
+The count is: 1.95585e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 13ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 7142
+V1: 7142
+V2: 1
+The count is: 1.95585e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 9ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 7142
+V1: 7142
+V2: 1
+The count is: 1.95585e+07
+---
+ [ms] execution: (5 warmups, 10 runs, 39.0000000 min, 52.000000 max, 40.000000 median, 2.400000% relMAD, 41.600000 avg, 4.060651 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    lmfao
+queryname: join123_100000x100000x100000_16
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_6250x6250x6250
+warmups:   5
+runs:      10
+
+\queryname join123_100000x100000x100000_16
+run lmfao
+Data loading: 18ms.
+Data sorting: 24ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 6250
+V1: 6250
+V2: 1
+The count is: 2.55503e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 12ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 6250
+V1: 6250
+V2: 1
+The count is: 2.55503e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 11ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 6250
+V1: 6250
+V2: 1
+The count is: 2.55503e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 19ms.
+Data process: 12ms.
+Size of each computed View: 
+V0: 6250
+V1: 6250
+V2: 1
+The count is: 2.55503e+07
+---
+
+run lmfao
+Data loading: 18ms.
+Data sorting: 10ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 6250
+V1: 6250
+V2: 1
+The count is: 2.55503e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 8ms.
+Data process: 12ms.
+Size of each computed View: 
+V0: 6250
+V1: 6250
+V2: 1
+The count is: 2.55503e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 10ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 6250
+V1: 6250
+V2: 1
+The count is: 2.55503e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 17ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 6250
+V1: 6250
+V2: 1
+The count is: 2.55503e+07
+---
+run lmfao
+Data loading: 18ms.
+Data sorting: 16ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 6250
+V1: 6250
+V2: 1
+The count is: 2.55503e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 8ms.
+Data process: 12ms.
+Size of each computed View: 
+V0: 6250
+V1: 6250
+V2: 1
+The count is: 2.55503e+07
+---
+run lmfao
+Data loading: 18ms.
+Data sorting: 10ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 6250
+V1: 6250
+V2: 1
+The count is: 2.55503e+07
+---
+run lmfao
+Data loading: 18ms.
+Data sorting: 17ms.
+Data process: 12ms.
+Size of each computed View: 
+V0: 6250
+V1: 6250
+V2: 1
+The count is: 2.55503e+07
+---
+run lmfao
+Data loading: 18ms.
+Data sorting: 31ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 6250
+V1: 6250
+V2: 1
+The count is: 2.55503e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 21ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 6250
+V1: 6250
+V2: 1
+The count is: 2.55503e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 10ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 6250
+V1: 6250
+V2: 1
+The count is: 2.55503e+07
+---
+ [ms] execution: (5 warmups, 10 runs, 38.0000000 min, 60.000000 max, 41.500000 median, 5.600000% relMAD, 44.200000 avg, 7.223419 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    lmfao
+queryname: join123_100000x100000x100000_18
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_5555x5555x5555
+warmups:   5
+runs:      10
+
+\queryname join123_100000x100000x100000_18
+run lmfao
+Data loading: 19ms.
+Data sorting: 12ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 5555
+V1: 5555
+V2: 1
+The count is: 3.24071e+07
+---
+
+run lmfao
+Data loading: 20ms.
+Data sorting: 7ms.
+Data process: 12ms.
+Size of each computed View: 
+V0: 5555
+V1: 5555
+V2: 1
+The count is: 3.24071e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 20ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 5555
+V1: 5555
+V2: 1
+The count is: 3.24071e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 21ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 5555
+V1: 5555
+V2: 1
+The count is: 3.24071e+07
+---
+
+run lmfao
+Data loading: 18ms.
+Data sorting: 8ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 5555
+V1: 5555
+V2: 1
+The count is: 3.24071e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 23ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 5555
+V1: 5555
+V2: 1
+The count is: 3.24071e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 10ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 5555
+V1: 5555
+V2: 1
+The count is: 3.24071e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 18ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 5555
+V1: 5555
+V2: 1
+The count is: 3.24071e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 21ms.
+Data process: 12ms.
+Size of each computed View: 
+V0: 5555
+V1: 5555
+V2: 1
+The count is: 3.24071e+07
+---
+run lmfao
+Data loading: 18ms.
+Data sorting: 19ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 5555
+V1: 5555
+V2: 1
+The count is: 3.24071e+07
+---
+run lmfao
+Data loading: 18ms.
+Data sorting: 25ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 5555
+V1: 5555
+V2: 1
+The count is: 3.24071e+07
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 32ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 5555
+V1: 5555
+V2: 1
+The count is: 3.24071e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 11ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 5555
+V1: 5555
+V2: 1
+The count is: 3.24071e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 14ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 5555
+V1: 5555
+V2: 1
+The count is: 3.24071e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 20ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 5555
+V1: 5555
+V2: 1
+The count is: 3.24071e+07
+---
+ [ms] execution: (5 warmups, 10 runs, 39.0000000 min, 61.000000 max, 47.000000 median, 5.300000% relMAD, 47.900000 avg, 6.789698 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    lmfao
+queryname: join123_100000x100000x100000_20
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_5000x5000x5000
+warmups:   5
+runs:      10
+
+\queryname join123_100000x100000x100000_20
+run lmfao
+Data loading: 20ms.
+Data sorting: 13ms.
+Data process: 12ms.
+Size of each computed View: 
+V0: 5000
+V1: 5000
+V2: 1
+The count is: 3.99695e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 14ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 5000
+V1: 5000
+V2: 1
+The count is: 3.99695e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 9ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 5000
+V1: 5000
+V2: 1
+The count is: 3.99695e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 11ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 5000
+V1: 5000
+V2: 1
+The count is: 3.99695e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 11ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 5000
+V1: 5000
+V2: 1
+The count is: 3.99695e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 17ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 5000
+V1: 5000
+V2: 1
+The count is: 3.99695e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 14ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 5000
+V1: 5000
+V2: 1
+The count is: 3.99695e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 12ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 5000
+V1: 5000
+V2: 1
+The count is: 3.99695e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 9ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 5000
+V1: 5000
+V2: 1
+The count is: 3.99695e+07
+---
+run lmfao
+Data loading: 18ms.
+Data sorting: 24ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 5000
+V1: 5000
+V2: 1
+The count is: 3.99695e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 17ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 5000
+V1: 5000
+V2: 1
+The count is: 3.99695e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 8ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 5000
+V1: 5000
+V2: 1
+The count is: 3.99695e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 9ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 5000
+V1: 5000
+V2: 1
+The count is: 3.99695e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 8ms.
+Data process: 12ms.
+Size of each computed View: 
+V0: 5000
+V1: 5000
+V2: 1
+The count is: 3.99695e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 22ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 5000
+V1: 5000
+V2: 1
+The count is: 3.99695e+07
+---
+ [ms] execution: (5 warmups, 10 runs, 38.0000000 min, 51.000000 max, 41.500000 median, 4.200000% relMAD, 43.000000 avg, 4.898979 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    lmfao
+queryname: join123_100000x100000x100000_22
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_4545x4545x4545
+warmups:   5
+runs:      10
+
+\queryname join123_100000x100000x100000_22
+run lmfao
+Data loading: 21ms.
+Data sorting: 30ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 4545
+V1: 4545
+V2: 1
+The count is: 4.83741e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 20ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 4545
+V1: 4545
+V2: 1
+The count is: 4.83741e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 12ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 4545
+V1: 4545
+V2: 1
+The count is: 4.83741e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 11ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 4545
+V1: 4545
+V2: 1
+The count is: 4.83741e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 32ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 4545
+V1: 4545
+V2: 1
+The count is: 4.83741e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 17ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 4545
+V1: 4545
+V2: 1
+The count is: 4.83741e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 12ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 4545
+V1: 4545
+V2: 1
+The count is: 4.83741e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 18ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 4545
+V1: 4545
+V2: 1
+The count is: 4.83741e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 19ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 4545
+V1: 4545
+V2: 1
+The count is: 4.83741e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 8ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 4545
+V1: 4545
+V2: 1
+The count is: 4.83741e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 17ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 4545
+V1: 4545
+V2: 1
+The count is: 4.83741e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 20ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 4545
+V1: 4545
+V2: 1
+The count is: 4.83741e+07
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 10ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 4545
+V1: 4545
+V2: 1
+The count is: 4.83741e+07
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 8ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 4545
+V1: 4545
+V2: 1
+The count is: 4.83741e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 24ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 4545
+V1: 4545
+V2: 1
+The count is: 4.83741e+07
+---
+ [ms] execution: (5 warmups, 10 runs, 38.0000000 min, 52.000000 max, 45.500000 median, 3.600000% relMAD, 44.400000 avg, 4.550946 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    lmfao
+queryname: join123_100000x100000x100000_24
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_4166x4166x4166
+warmups:   5
+runs:      10
+
+\queryname join123_100000x100000x100000_24
+run lmfao
+Data loading: 20ms.
+Data sorting: 15ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 4166
+V1: 4166
+V2: 1
+The count is: 5.75234e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 9ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 4166
+V1: 4166
+V2: 1
+The count is: 5.75234e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 10ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 4166
+V1: 4166
+V2: 1
+The count is: 5.75234e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 19ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 4166
+V1: 4166
+V2: 1
+The count is: 5.75234e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 8ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 4166
+V1: 4166
+V2: 1
+The count is: 5.75234e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 10ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 4166
+V1: 4166
+V2: 1
+The count is: 5.75234e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 8ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 4166
+V1: 4166
+V2: 1
+The count is: 5.75234e+07
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 15ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 4166
+V1: 4166
+V2: 1
+The count is: 5.75234e+07
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 8ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 4166
+V1: 4166
+V2: 1
+The count is: 5.75234e+07
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 17ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 4166
+V1: 4166
+V2: 1
+The count is: 5.75234e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 11ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 4166
+V1: 4166
+V2: 1
+The count is: 5.75234e+07
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 12ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 4166
+V1: 4166
+V2: 1
+The count is: 5.75234e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 10ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 4166
+V1: 4166
+V2: 1
+The count is: 5.75234e+07
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 23ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 4166
+V1: 4166
+V2: 1
+The count is: 5.75234e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 22ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 4166
+V1: 4166
+V2: 1
+The count is: 5.75234e+07
+---
+ [ms] execution: (5 warmups, 10 runs, 38.0000000 min, 52.000000 max, 40.500000 median, 4.700000% relMAD, 42.900000 avg, 5.646041 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    lmfao
+queryname: join123_100000x100000x100000_26
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_3846x3846x3846
+warmups:   5
+runs:      10
+
+\queryname join123_100000x100000x100000_26
+run lmfao
+Data loading: 22ms.
+Data sorting: 21ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 3846
+V1: 3846
+V2: 1
+The count is: 6.75341e+07
+---
+
+run lmfao
+Data loading: 20ms.
+Data sorting: 22ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 3846
+V1: 3846
+V2: 1
+The count is: 6.75341e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 12ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 3846
+V1: 3846
+V2: 1
+The count is: 6.75341e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 10ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 3846
+V1: 3846
+V2: 1
+The count is: 6.75341e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 8ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 3846
+V1: 3846
+V2: 1
+The count is: 6.75341e+07
+---
+
+run lmfao
+Data loading: 20ms.
+Data sorting: 13ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 3846
+V1: 3846
+V2: 1
+The count is: 6.75341e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 16ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 3846
+V1: 3846
+V2: 1
+The count is: 6.75341e+07
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 11ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 3846
+V1: 3846
+V2: 1
+The count is: 6.75341e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 19ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 3846
+V1: 3846
+V2: 1
+The count is: 6.75341e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 16ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 3846
+V1: 3846
+V2: 1
+The count is: 6.75341e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 11ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 3846
+V1: 3846
+V2: 1
+The count is: 6.75341e+07
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 19ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 3846
+V1: 3846
+V2: 1
+The count is: 6.75341e+07
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 25ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 3846
+V1: 3846
+V2: 1
+The count is: 6.75341e+07
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 7ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 3846
+V1: 3846
+V2: 1
+The count is: 6.75341e+07
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 32ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 3846
+V1: 3846
+V2: 1
+The count is: 6.75341e+07
+---
+ [ms] execution: (5 warmups, 10 runs, 35.0000000 min, 61.000000 max, 43.000000 median, 5.100000% relMAD, 44.700000 avg, 7.498889 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    lmfao
+queryname: join123_100000x100000x100000_28
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_3571x3571x3571
+warmups:   5
+runs:      10
+
+\queryname join123_100000x100000x100000_28
+run lmfao
+Data loading: 21ms.
+Data sorting: 18ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 3571
+V1: 3571
+V2: 1
+The count is: 7.82847e+07
+---
+
+run lmfao
+Data loading: 21ms.
+Data sorting: 11ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 3571
+V1: 3571
+V2: 1
+The count is: 7.82847e+07
+---
+
+run lmfao
+Data loading: 20ms.
+Data sorting: 10ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 3571
+V1: 3571
+V2: 1
+The count is: 7.82847e+07
+---
+
+run lmfao
+Data loading: 20ms.
+Data sorting: 25ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 3571
+V1: 3571
+V2: 1
+The count is: 7.82847e+07
+---
+
+run lmfao
+Data loading: 20ms.
+Data sorting: 17ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 3571
+V1: 3571
+V2: 1
+The count is: 7.82847e+07
+---
+
+run lmfao
+Data loading: 19ms.
+Data sorting: 10ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 3571
+V1: 3571
+V2: 1
+The count is: 7.82847e+07
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 14ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 3571
+V1: 3571
+V2: 1
+The count is: 7.82847e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 14ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 3571
+V1: 3571
+V2: 1
+The count is: 7.82847e+07
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 11ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 3571
+V1: 3571
+V2: 1
+The count is: 7.82847e+07
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 9ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 3571
+V1: 3571
+V2: 1
+The count is: 7.82847e+07
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 11ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 3571
+V1: 3571
+V2: 1
+The count is: 7.82847e+07
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 11ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 3571
+V1: 3571
+V2: 1
+The count is: 7.82847e+07
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 11ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 3571
+V1: 3571
+V2: 1
+The count is: 7.82847e+07
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 16ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 3571
+V1: 3571
+V2: 1
+The count is: 7.82847e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 15ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 3571
+V1: 3571
+V2: 1
+The count is: 7.82847e+07
+---
+ [ms] execution: (5 warmups, 10 runs, 37.0000000 min, 44.000000 max, 39.000000 median, 1.800000% relMAD, 39.800000 avg, 2.347576 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    lmfao
+queryname: join123_100000x100000x100000_30
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_3333x3333x3333
+warmups:   5
+runs:      10
+
+\queryname join123_100000x100000x100000_30
+run lmfao
+Data loading: 21ms.
+Data sorting: 13ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 3333
+V1: 3333
+V2: 1
+The count is: 8.99254e+07
+---
+
+run lmfao
+Data loading: 20ms.
+Data sorting: 20ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 3333
+V1: 3333
+V2: 1
+The count is: 8.99254e+07
+---
+
+run lmfao
+Data loading: 21ms.
+Data sorting: 20ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 3333
+V1: 3333
+V2: 1
+The count is: 8.99254e+07
+---
+
+run lmfao
+Data loading: 20ms.
+Data sorting: 10ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 3333
+V1: 3333
+V2: 1
+The count is: 8.99254e+07
+---
+
+run lmfao
+Data loading: 20ms.
+Data sorting: 10ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 3333
+V1: 3333
+V2: 1
+The count is: 8.99254e+07
+---
+
+run lmfao
+Data loading: 20ms.
+Data sorting: 11ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 3333
+V1: 3333
+V2: 1
+The count is: 8.99254e+07
+---
+run lmfao
+Data loading: 19ms.
+Data sorting: 8ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 3333
+V1: 3333
+V2: 1
+The count is: 8.99254e+07
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 15ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 3333
+V1: 3333
+V2: 1
+The count is: 8.99254e+07
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 8ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 3333
+V1: 3333
+V2: 1
+The count is: 8.99254e+07
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 21ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 3333
+V1: 3333
+V2: 1
+The count is: 8.99254e+07
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 26ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 3333
+V1: 3333
+V2: 1
+The count is: 8.99254e+07
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 17ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 3333
+V1: 3333
+V2: 1
+The count is: 8.99254e+07
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 10ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 3333
+V1: 3333
+V2: 1
+The count is: 8.99254e+07
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 7ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 3333
+V1: 3333
+V2: 1
+The count is: 8.99254e+07
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 9ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 3333
+V1: 3333
+V2: 1
+The count is: 8.99254e+07
+---
+ [ms] execution: (5 warmups, 10 runs, 37.0000000 min, 55.000000 max, 39.000000 median, 3.800000% relMAD, 42.000000 avg, 5.715476 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    lmfao
+queryname: join123_100000x100000x100000_32
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_3125x3125x3125
+warmups:   5
+runs:      10
+
+\queryname join123_100000x100000x100000_32
+run lmfao
+Data loading: 22ms.
+Data sorting: 14ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 3125
+V1: 3125
+V2: 1
+The count is: 1.02228e+08
+---
+
+run lmfao
+Data loading: 21ms.
+Data sorting: 25ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 3125
+V1: 3125
+V2: 1
+The count is: 1.02228e+08
+---
+
+run lmfao
+Data loading: 21ms.
+Data sorting: 19ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 3125
+V1: 3125
+V2: 1
+The count is: 1.02228e+08
+---
+
+run lmfao
+Data loading: 20ms.
+Data sorting: 31ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 3125
+V1: 3125
+V2: 1
+The count is: 1.02228e+08
+---
+
+run lmfao
+Data loading: 22ms.
+Data sorting: 11ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 3125
+V1: 3125
+V2: 1
+The count is: 1.02228e+08
+---
+
+run lmfao
+Data loading: 20ms.
+Data sorting: 11ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 3125
+V1: 3125
+V2: 1
+The count is: 1.02228e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 9ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 3125
+V1: 3125
+V2: 1
+The count is: 1.02228e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 10ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 3125
+V1: 3125
+V2: 1
+The count is: 1.02228e+08
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 18ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 3125
+V1: 3125
+V2: 1
+The count is: 1.02228e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 11ms.
+Data process: 6ms.
+Size of each computed View: 
+V0: 3125
+V1: 3125
+V2: 1
+The count is: 1.02228e+08
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 11ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 3125
+V1: 3125
+V2: 1
+The count is: 1.02228e+08
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 16ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 3125
+V1: 3125
+V2: 1
+The count is: 1.02228e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 15ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 3125
+V1: 3125
+V2: 1
+The count is: 1.02228e+08
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 11ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 3125
+V1: 3125
+V2: 1
+The count is: 1.02228e+08
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 26ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 3125
+V1: 3125
+V2: 1
+The count is: 1.02228e+08
+---
+ [ms] execution: (5 warmups, 10 runs, 38.0000000 min, 54.000000 max, 38.000000 median, 3.700000% relMAD, 41.700000 avg, 5.457920 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    lmfao
+queryname: join123_100000x100000x100000_34
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_2941x2941x2941
+warmups:   5
+runs:      10
+
+\queryname join123_100000x100000x100000_34
+run lmfao
+Data loading: 22ms.
+Data sorting: 24ms.
+Data process: 6ms.
+Size of each computed View: 
+V0: 2941
+V1: 2941
+V2: 1
+The count is: 1.15585e+08
+---
+
+run lmfao
+Data loading: 21ms.
+Data sorting: 19ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2941
+V1: 2941
+V2: 1
+The count is: 1.15585e+08
+---
+
+run lmfao
+Data loading: 21ms.
+Data sorting: 13ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2941
+V1: 2941
+V2: 1
+The count is: 1.15585e+08
+---
+
+run lmfao
+Data loading: 21ms.
+Data sorting: 9ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 2941
+V1: 2941
+V2: 1
+The count is: 1.15585e+08
+---
+
+run lmfao
+Data loading: 20ms.
+Data sorting: 9ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 2941
+V1: 2941
+V2: 1
+The count is: 1.15585e+08
+---
+
+run lmfao
+Data loading: 20ms.
+Data sorting: 31ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 2941
+V1: 2941
+V2: 1
+The count is: 1.15585e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 15ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2941
+V1: 2941
+V2: 1
+The count is: 1.15585e+08
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 10ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 2941
+V1: 2941
+V2: 1
+The count is: 1.15585e+08
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 11ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2941
+V1: 2941
+V2: 1
+The count is: 1.15585e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 10ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2941
+V1: 2941
+V2: 1
+The count is: 1.15585e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 22ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2941
+V1: 2941
+V2: 1
+The count is: 1.15585e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 8ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 2941
+V1: 2941
+V2: 1
+The count is: 1.15585e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 13ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 2941
+V1: 2941
+V2: 1
+The count is: 1.15585e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 11ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2941
+V1: 2941
+V2: 1
+The count is: 1.15585e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 10ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 2941
+V1: 2941
+V2: 1
+The count is: 1.15585e+08
+---
+ [ms] execution: (5 warmups, 10 runs, 38.0000000 min, 59.000000 max, 39.000000 median, 4.100000% relMAD, 42.500000 avg, 6.883959 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    lmfao
+queryname: join123_100000x100000x100000_36
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_2777x2777x2777
+warmups:   5
+runs:      10
+
+\queryname join123_100000x100000x100000_36
+run lmfao
+Data loading: 22ms.
+Data sorting: 18ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2777
+V1: 2777
+V2: 1
+The count is: 1.29519e+08
+---
+
+run lmfao
+Data loading: 21ms.
+Data sorting: 19ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2777
+V1: 2777
+V2: 1
+The count is: 1.29519e+08
+---
+
+run lmfao
+Data loading: 21ms.
+Data sorting: 11ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2777
+V1: 2777
+V2: 1
+The count is: 1.29519e+08
+---
+
+run lmfao
+Data loading: 20ms.
+Data sorting: 12ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2777
+V1: 2777
+V2: 1
+The count is: 1.29519e+08
+---
+
+run lmfao
+Data loading: 21ms.
+Data sorting: 11ms.
+Data process: 6ms.
+Size of each computed View: 
+V0: 2777
+V1: 2777
+V2: 1
+The count is: 1.29519e+08
+---
+
+run lmfao
+Data loading: 20ms.
+Data sorting: 12ms.
+Data process: 6ms.
+Size of each computed View: 
+V0: 2777
+V1: 2777
+V2: 1
+The count is: 1.29519e+08
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 11ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2777
+V1: 2777
+V2: 1
+The count is: 1.29519e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 7ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 2777
+V1: 2777
+V2: 1
+The count is: 1.29519e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 24ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2777
+V1: 2777
+V2: 1
+The count is: 1.29519e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 35ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2777
+V1: 2777
+V2: 1
+The count is: 1.29519e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 8ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 2777
+V1: 2777
+V2: 1
+The count is: 1.29519e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 14ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 2777
+V1: 2777
+V2: 1
+The count is: 1.29519e+08
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 13ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2777
+V1: 2777
+V2: 1
+The count is: 1.29519e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 19ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 2777
+V1: 2777
+V2: 1
+The count is: 1.29519e+08
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 17ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2777
+V1: 2777
+V2: 1
+The count is: 1.29519e+08
+---
+ [ms] execution: (5 warmups, 10 runs, 38.0000000 min, 63.000000 max, 41.500000 median, 5.600000% relMAD, 44.400000 avg, 8.016649 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    lmfao
+queryname: join123_100000x100000x100000_38
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_2631x2631x2631
+warmups:   5
+runs:      10
+
+\queryname join123_100000x100000x100000_38
+run lmfao
+Data loading: 21ms.
+Data sorting: 17ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 2631
+V1: 2631
+V2: 1
+The count is: 1.44255e+08
+---
+
+run lmfao
+Data loading: 21ms.
+Data sorting: 11ms.
+Data process: 6ms.
+Size of each computed View: 
+V0: 2631
+V1: 2631
+V2: 1
+The count is: 1.44255e+08
+---
+
+run lmfao
+Data loading: 21ms.
+Data sorting: 11ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2631
+V1: 2631
+V2: 1
+The count is: 1.44255e+08
+---
+
+run lmfao
+Data loading: 21ms.
+Data sorting: 22ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2631
+V1: 2631
+V2: 1
+The count is: 1.44255e+08
+---
+
+run lmfao
+Data loading: 21ms.
+Data sorting: 12ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 2631
+V1: 2631
+V2: 1
+The count is: 1.44255e+08
+---
+
+run lmfao
+Data loading: 21ms.
+Data sorting: 9ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 2631
+V1: 2631
+V2: 1
+The count is: 1.44255e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 30ms.
+Data process: 6ms.
+Size of each computed View: 
+V0: 2631
+V1: 2631
+V2: 1
+The count is: 1.44255e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 15ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 2631
+V1: 2631
+V2: 1
+The count is: 1.44255e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 10ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2631
+V1: 2631
+V2: 1
+The count is: 1.44255e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 8ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 2631
+V1: 2631
+V2: 1
+The count is: 1.44255e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 9ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 2631
+V1: 2631
+V2: 1
+The count is: 1.44255e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 11ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2631
+V1: 2631
+V2: 1
+The count is: 1.44255e+08
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 8ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 2631
+V1: 2631
+V2: 1
+The count is: 1.44255e+08
+---
+run lmfao
+Data loading: 20ms.
+Data sorting: 11ms.
+Data process: 6ms.
+Size of each computed View: 
+V0: 2631
+V1: 2631
+V2: 1
+The count is: 1.44255e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 13ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 2631
+V1: 2631
+V2: 1
+The count is: 1.44255e+08
+---
+ [ms] execution: (5 warmups, 10 runs, 37.0000000 min, 57.000000 max, 39.000000 median, 3.200000% relMAD, 41.000000 avg, 6.036923 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    lmfao
+queryname: join123_100000x100000x100000_40
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_2500x2500x2500
+warmups:   5
+runs:      10
+
+\queryname join123_100000x100000x100000_40
+run lmfao
+Data loading: 22ms.
+Data sorting: 35ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2500
+V1: 2500
+V2: 1
+The count is: 1.59813e+08
+---
+
+run lmfao
+Data loading: 22ms.
+Data sorting: 10ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2500
+V1: 2500
+V2: 1
+The count is: 1.59813e+08
+---
+
+run lmfao
+Data loading: 21ms.
+Data sorting: 22ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2500
+V1: 2500
+V2: 1
+The count is: 1.59813e+08
+---
+
+run lmfao
+Data loading: 22ms.
+Data sorting: 26ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 2500
+V1: 2500
+V2: 1
+The count is: 1.59813e+08
+---
+
+run lmfao
+Data loading: 22ms.
+Data sorting: 27ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2500
+V1: 2500
+V2: 1
+The count is: 1.59813e+08
+---
+
+run lmfao
+Data loading: 21ms.
+Data sorting: 18ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2500
+V1: 2500
+V2: 1
+The count is: 1.59813e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 11ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2500
+V1: 2500
+V2: 1
+The count is: 1.59813e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 10ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 2500
+V1: 2500
+V2: 1
+The count is: 1.59813e+08
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 17ms.
+Data process: 6ms.
+Size of each computed View: 
+V0: 2500
+V1: 2500
+V2: 1
+The count is: 1.59813e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 22ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2500
+V1: 2500
+V2: 1
+The count is: 1.59813e+08
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 20ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 2500
+V1: 2500
+V2: 1
+The count is: 1.59813e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 19ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 2500
+V1: 2500
+V2: 1
+The count is: 1.59813e+08
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 8ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 2500
+V1: 2500
+V2: 1
+The count is: 1.59813e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 11ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2500
+V1: 2500
+V2: 1
+The count is: 1.59813e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 14ms.
+Data process: 6ms.
+Size of each computed View: 
+V0: 2500
+V1: 2500
+V2: 1
+The count is: 1.59813e+08
+---
+ [ms] execution: (5 warmups, 10 runs, 39.0000000 min, 52.000000 max, 43.000000 median, 4.500000% relMAD, 43.900000 avg, 5.152130 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    lmfao
+queryname: join123_100000x100000x100000_42
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_2380x2380x2380
+warmups:   5
+runs:      10
+
+\queryname join123_100000x100000x100000_42
+run lmfao
+Data loading: 22ms.
+Data sorting: 14ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2380
+V1: 2380
+V2: 1
+The count is: 1.76447e+08
+---
+
+run lmfao
+Data loading: 21ms.
+Data sorting: 11ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2380
+V1: 2380
+V2: 1
+The count is: 1.76447e+08
+---
+
+run lmfao
+Data loading: 22ms.
+Data sorting: 9ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 2380
+V1: 2380
+V2: 1
+The count is: 1.76447e+08
+---
+
+run lmfao
+Data loading: 21ms.
+Data sorting: 18ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 2380
+V1: 2380
+V2: 1
+The count is: 1.76447e+08
+---
+
+run lmfao
+Data loading: 21ms.
+Data sorting: 9ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 2380
+V1: 2380
+V2: 1
+The count is: 1.76447e+08
+---
+
+run lmfao
+Data loading: 21ms.
+Data sorting: 25ms.
+Data process: 6ms.
+Size of each computed View: 
+V0: 2380
+V1: 2380
+V2: 1
+The count is: 1.76447e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 10ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 2380
+V1: 2380
+V2: 1
+The count is: 1.76447e+08
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 16ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2380
+V1: 2380
+V2: 1
+The count is: 1.76447e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 25ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2380
+V1: 2380
+V2: 1
+The count is: 1.76447e+08
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 15ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 2380
+V1: 2380
+V2: 1
+The count is: 1.76447e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 17ms.
+Data process: 6ms.
+Size of each computed View: 
+V0: 2380
+V1: 2380
+V2: 1
+The count is: 1.76447e+08
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 19ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 2380
+V1: 2380
+V2: 1
+The count is: 1.76447e+08
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 11ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 2380
+V1: 2380
+V2: 1
+The count is: 1.76447e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 13ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2380
+V1: 2380
+V2: 1
+The count is: 1.76447e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 13ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2380
+V1: 2380
+V2: 1
+The count is: 1.76447e+08
+---
+ [ms] execution: (5 warmups, 10 runs, 39.0000000 min, 53.000000 max, 44.500000 median, 3.800000% relMAD, 45.200000 avg, 4.802777 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    lmfao
+queryname: join123_100000x100000x100000_44
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_2272x2272x2272
+warmups:   5
+runs:      10
+
+\queryname join123_100000x100000x100000_44
+run lmfao
+Data loading: 24ms.
+Data sorting: 10ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2272
+V1: 2272
+V2: 1
+The count is: 1.9353e+08
+---
+
+run lmfao
+Data loading: 21ms.
+Data sorting: 10ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2272
+V1: 2272
+V2: 1
+The count is: 1.9353e+08
+---
+
+run lmfao
+Data loading: 22ms.
+Data sorting: 18ms.
+Data process: 6ms.
+Size of each computed View: 
+V0: 2272
+V1: 2272
+V2: 1
+The count is: 1.9353e+08
+---
+
+run lmfao
+Data loading: 21ms.
+Data sorting: 23ms.
+Data process: 11ms.
+Size of each computed View: 
+V0: 2272
+V1: 2272
+V2: 1
+The count is: 1.9353e+08
+---
+
+run lmfao
+Data loading: 23ms.
+Data sorting: 10ms.
+Data process: 6ms.
+Size of each computed View: 
+V0: 2272
+V1: 2272
+V2: 1
+The count is: 1.9353e+08
+---
+
+run lmfao
+Data loading: 21ms.
+Data sorting: 18ms.
+Data process: 6ms.
+Size of each computed View: 
+V0: 2272
+V1: 2272
+V2: 1
+The count is: 1.9353e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 9ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 2272
+V1: 2272
+V2: 1
+The count is: 1.9353e+08
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 9ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 2272
+V1: 2272
+V2: 1
+The count is: 1.9353e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 8ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2272
+V1: 2272
+V2: 1
+The count is: 1.9353e+08
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 18ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 2272
+V1: 2272
+V2: 1
+The count is: 1.9353e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 11ms.
+Data process: 5ms.
+Size of each computed View: 
+V0: 2272
+V1: 2272
+V2: 1
+The count is: 1.9353e+08
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 20ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 2272
+V1: 2272
+V2: 1
+The count is: 1.9353e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 11ms.
+Data process: 6ms.
+Size of each computed View: 
+V0: 2272
+V1: 2272
+V2: 1
+The count is: 1.9353e+08
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 17ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 2272
+V1: 2272
+V2: 1
+The count is: 1.9353e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 11ms.
+Data process: 6ms.
+Size of each computed View: 
+V0: 2272
+V1: 2272
+V2: 1
+The count is: 1.9353e+08
+---
+ [ms] execution: (5 warmups, 10 runs, 36.0000000 min, 51.000000 max, 39.000000 median, 4.400000% relMAD, 41.800000 avg, 5.411921 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    lmfao
+queryname: join123_100000x100000x100000_46
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_2173x2173x2173
+warmups:   5
+runs:      10
+
+\queryname join123_100000x100000x100000_46
+run lmfao
+Data loading: 22ms.
+Data sorting: 25ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2173
+V1: 2173
+V2: 1
+The count is: 2.11651e+08
+---
+
+run lmfao
+Data loading: 22ms.
+Data sorting: 20ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 2173
+V1: 2173
+V2: 1
+The count is: 2.11651e+08
+---
+
+run lmfao
+Data loading: 23ms.
+Data sorting: 9ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 2173
+V1: 2173
+V2: 1
+The count is: 2.11651e+08
+---
+
+run lmfao
+Data loading: 22ms.
+Data sorting: 18ms.
+Data process: 6ms.
+Size of each computed View: 
+V0: 2173
+V1: 2173
+V2: 1
+The count is: 2.11651e+08
+---
+
+run lmfao
+Data loading: 22ms.
+Data sorting: 27ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2173
+V1: 2173
+V2: 1
+The count is: 2.11651e+08
+---
+
+run lmfao
+Data loading: 22ms.
+Data sorting: 15ms.
+Data process: 5ms.
+Size of each computed View: 
+V0: 2173
+V1: 2173
+V2: 1
+The count is: 2.11651e+08
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 10ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2173
+V1: 2173
+V2: 1
+The count is: 2.11651e+08
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 11ms.
+Data process: 5ms.
+Size of each computed View: 
+V0: 2173
+V1: 2173
+V2: 1
+The count is: 2.11651e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 11ms.
+Data process: 6ms.
+Size of each computed View: 
+V0: 2173
+V1: 2173
+V2: 1
+The count is: 2.11651e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 15ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2173
+V1: 2173
+V2: 1
+The count is: 2.11651e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 16ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2173
+V1: 2173
+V2: 1
+The count is: 2.11651e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 15ms.
+Data process: 6ms.
+Size of each computed View: 
+V0: 2173
+V1: 2173
+V2: 1
+The count is: 2.11651e+08
+---
+run lmfao
+Data loading: 23ms.
+Data sorting: 31ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 2173
+V1: 2173
+V2: 1
+The count is: 2.11651e+08
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 15ms.
+Data process: 6ms.
+Size of each computed View: 
+V0: 2173
+V1: 2173
+V2: 1
+The count is: 2.11651e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 11ms.
+Data process: 6ms.
+Size of each computed View: 
+V0: 2173
+V1: 2173
+V2: 1
+The count is: 2.11651e+08
+---
+ [ms] execution: (5 warmups, 10 runs, 38.0000000 min, 64.000000 max, 42.000000 median, 4.100000% relMAD, 43.100000 avg, 7.709302 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    lmfao
+queryname: join123_100000x100000x100000_48
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_2083x2083x2083
+warmups:   5
+runs:      10
+
+\queryname join123_100000x100000x100000_48
+run lmfao
+Data loading: 23ms.
+Data sorting: 26ms.
+Data process: 6ms.
+Size of each computed View: 
+V0: 2083
+V1: 2083
+V2: 1
+The count is: 2.30371e+08
+---
+
+run lmfao
+Data loading: 22ms.
+Data sorting: 11ms.
+Data process: 6ms.
+Size of each computed View: 
+V0: 2083
+V1: 2083
+V2: 1
+The count is: 2.30371e+08
+---
+
+run lmfao
+Data loading: 22ms.
+Data sorting: 13ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2083
+V1: 2083
+V2: 1
+The count is: 2.30371e+08
+---
+
+run lmfao
+Data loading: 22ms.
+Data sorting: 18ms.
+Data process: 5ms.
+Size of each computed View: 
+V0: 2083
+V1: 2083
+V2: 1
+The count is: 2.30371e+08
+---
+
+run lmfao
+Data loading: 22ms.
+Data sorting: 15ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2083
+V1: 2083
+V2: 1
+The count is: 2.30371e+08
+---
+
+run lmfao
+Data loading: 21ms.
+Data sorting: 11ms.
+Data process: 6ms.
+Size of each computed View: 
+V0: 2083
+V1: 2083
+V2: 1
+The count is: 2.30371e+08
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 13ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2083
+V1: 2083
+V2: 1
+The count is: 2.30371e+08
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 10ms.
+Data process: 6ms.
+Size of each computed View: 
+V0: 2083
+V1: 2083
+V2: 1
+The count is: 2.30371e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 9ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 2083
+V1: 2083
+V2: 1
+The count is: 2.30371e+08
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 9ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 2083
+V1: 2083
+V2: 1
+The count is: 2.30371e+08
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 17ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 2083
+V1: 2083
+V2: 1
+The count is: 2.30371e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 16ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2083
+V1: 2083
+V2: 1
+The count is: 2.30371e+08
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 14ms.
+Data process: 9ms.
+Size of each computed View: 
+V0: 2083
+V1: 2083
+V2: 1
+The count is: 2.30371e+08
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 8ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 2083
+V1: 2083
+V2: 1
+The count is: 2.30371e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 11ms.
+Data process: 6ms.
+Size of each computed View: 
+V0: 2083
+V1: 2083
+V2: 1
+The count is: 2.30371e+08
+---
+ [ms] execution: (5 warmups, 10 runs, 38.0000000 min, 48.000000 max, 38.500000 median, 2.800000% relMAD, 40.800000 avg, 3.705851 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)
+
+
+driver:    lmfao
+queryname: join123_100000x100000x100000_50
+querypath: bench/artificial/queries
+datapath:  ./bench/data/micro/uniform_100000x100000x100000_2000x2000x2000
+warmups:   5
+runs:      10
+
+\queryname join123_100000x100000x100000_50
+run lmfao
+Data loading: 23ms.
+Data sorting: 19ms.
+Data process: 6ms.
+Size of each computed View: 
+V0: 2000
+V1: 2000
+V2: 1
+The count is: 2.49913e+08
+---
+
+run lmfao
+Data loading: 22ms.
+Data sorting: 8ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 2000
+V1: 2000
+V2: 1
+The count is: 2.49913e+08
+---
+
+run lmfao
+Data loading: 22ms.
+Data sorting: 11ms.
+Data process: 6ms.
+Size of each computed View: 
+V0: 2000
+V1: 2000
+V2: 1
+The count is: 2.49913e+08
+---
+
+run lmfao
+Data loading: 22ms.
+Data sorting: 11ms.
+Data process: 5ms.
+Size of each computed View: 
+V0: 2000
+V1: 2000
+V2: 1
+The count is: 2.49913e+08
+---
+
+run lmfao
+Data loading: 22ms.
+Data sorting: 10ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2000
+V1: 2000
+V2: 1
+The count is: 2.49913e+08
+---
+
+run lmfao
+Data loading: 21ms.
+Data sorting: 33ms.
+Data process: 8ms.
+Size of each computed View: 
+V0: 2000
+V1: 2000
+V2: 1
+The count is: 2.49913e+08
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 29ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2000
+V1: 2000
+V2: 1
+The count is: 2.49913e+08
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 11ms.
+Data process: 5ms.
+Size of each computed View: 
+V0: 2000
+V1: 2000
+V2: 1
+The count is: 2.49913e+08
+---
+run lmfao
+Data loading: 23ms.
+Data sorting: 8ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 2000
+V1: 2000
+V2: 1
+The count is: 2.49913e+08
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 23ms.
+Data process: 6ms.
+Size of each computed View: 
+V0: 2000
+V1: 2000
+V2: 1
+The count is: 2.49913e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 10ms.
+Data process: 6ms.
+Size of each computed View: 
+V0: 2000
+V1: 2000
+V2: 1
+The count is: 2.49913e+08
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 8ms.
+Data process: 10ms.
+Size of each computed View: 
+V0: 2000
+V1: 2000
+V2: 1
+The count is: 2.49913e+08
+---
+run lmfao
+Data loading: 21ms.
+Data sorting: 9ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2000
+V1: 2000
+V2: 1
+The count is: 2.49913e+08
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 21ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2000
+V1: 2000
+V2: 1
+The count is: 2.49913e+08
+---
+run lmfao
+Data loading: 22ms.
+Data sorting: 21ms.
+Data process: 7ms.
+Size of each computed View: 
+V0: 2000
+V1: 2000
+V2: 1
+The count is: 2.49913e+08
+---
+ [ms] execution: (5 warmups, 10 runs, 37.0000000 min, 62.000000 max, 45.500000 median, 7.800000% relMAD, 46.400000 avg, 9.082339 sdev) [s] compilation: (0 warmups, 0 runs, 0.0000000 min, 0.000000 max, 0.000000 median, 0.000000% relMAD, 0.000000 avg, 0.000000 sdev)

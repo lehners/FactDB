@@ -1,0 +1,32 @@
+diff --git a/scripts/ssb/data/dbgen/bm_utils.c b/scripts/ssb/data/dbgen/bm_utils.c
+index 7078eded7..4f1875de5 100644
+--- a/scripts/ssb/data/dbgen/bm_utils.c
++++ b/scripts/ssb/data/dbgen/bm_utils.c
+@@ -130,7 +130,7 @@ yes_no(char *prompt)
+ #pragma warning(default:4127)
+ #endif 
+         printf("%s [Y/N]: ", prompt);
+-        gets(reply);
++        fgets(reply, 128, stdin);
+         switch (*reply)
+             {
+             case 'y':
+@@ -385,5 +385,5 @@ yes_no(char *prompt)
+ {
+         retcode =
+-            open(fullpath, ((*mode == 'r')?O_RDONLY:O_WRONLY)|O_CREAT);
++            open(fullpath, ((*mode == 'r')?O_RDONLY:O_WRONLY)|O_CREAT,0644);
+         f = fdopen(retcode, mode);
+         }
+diff --git a/scripts/ssb/data/dbgen/load_stub.c b/scripts/ssb/data/dbgen/load_stub.c
+index e3339b578..c2c552aa1 100644
+--- a/scripts/ssb/data/dbgen/load_stub.c
++++ b/scripts/ssb/data/dbgen/load_stub.c
+@@ -138,6 +138,7 @@ ld_order (order_t *p, int mode)
+     return(0);
+ }
+ 
++int
+ ld_line (order_t *p, int mode)
+ {
+     static int count = 0;

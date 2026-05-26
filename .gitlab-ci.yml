@@ -1,0 +1,129 @@
+stages:
+  - build
+  - test
+  - build_generated
+  - test_generated
+
+variables:
+  DEBUG_BUILD_DIR: ./build_debug
+  RELEASE_BUILD_DIR: ./build_release
+# ---------------------------------------------------------------------------
+before_script:
+  - mkdir -p $DEBUG_BUILD_DIR
+  - mkdir -p $RELEASE_BUILD_DIR
+# ---------------------------------------------------------------------------
+build_debug:
+  image: gitlab.db.in.tum.de:5005/lehners/factdb
+  stage: build
+  script:
+    - cd $DEBUG_BUILD_DIR
+    - cmake -DCMAKE_BUILD_TYPE=Debug ..
+    - make -j
+    - ls -a
+  tags:
+    - "umbra-builder"
+  artifacts:
+    paths:
+      - ./${DEBUG_BUILD_DIR}/*
+# ---------------------------------------------------------------------------
+build_release:
+  image: gitlab.db.in.tum.de:5005/lehners/factdb
+  stage: build
+  script:
+    - cd $RELEASE_BUILD_DIR
+    - cmake -DCMAKE_BUILD_TYPE=Release ..
+    - make -j
+    - ls -a
+  tags:
+    - "umbra-builder"
+  artifacts:
+    paths:
+      - ./${RELEASE_BUILD_DIR}/*
+# ---------------------------------------------------------------------------
+test_debug:
+  image: gitlab.db.in.tum.de:5005/lehners/factdb
+  stage: test
+  script:
+    - cd $DEBUG_BUILD_DIR
+    - ./tester
+  dependencies:
+    - build_debug
+  tags:
+    - "umbra-test"
+  artifacts:
+    paths:
+      - ./factDB/gen
+      - test/factDB/GeneratedTests.cpp
+      - test/factDB/CMakeLists.txt
+      - ./${DEBUG_BUILD_DIR}/*
+# ---------------------------------------------------------------------------
+test_release:
+  image: gitlab.db.in.tum.de:5005/lehners/factdb
+  stage: test
+  script:
+    - cd $RELEASE_BUILD_DIR
+    - ./tester
+  dependencies:
+    - build_release
+  tags:
+    - "umbra-test"
+  artifacts:
+    paths:
+      - ./factDB/gen
+      - test/factDB/GeneratedTests.cpp
+      - test/factDB/CMakeLists.txt
+      - ./${RELEASE_BUILD_DIR}/*
+# ---------------------------------------------------------------------------
+build_generated_debug:
+  image: gitlab.db.in.tum.de:5005/lehners/factdb
+  stage: build_generated
+  script:
+    - cd $DEBUG_BUILD_DIR
+    - cmake -DCMAKE_BUILD_TYPE=Debug ..
+    - make -j
+    - ls -a
+  dependencies:
+    - test_debug
+  tags:
+    - "umbra-builder"
+  artifacts:
+    paths:
+      - ./${DEBUG_BUILD_DIR}/*
+# ---------------------------------------------------------------------------
+build_generated_release:
+  image: gitlab.db.in.tum.de:5005/lehners/factdb
+  stage: build_generated
+  script:
+    - cd $RELEASE_BUILD_DIR
+    - cmake -DCMAKE_BUILD_TYPE=Release ..
+    - make -j
+    - ls -a
+  dependencies:
+    - test_release
+  tags:
+    - "umbra-builder"
+  artifacts:
+    paths:
+      - ./${RELEASE_BUILD_DIR}/*
+# ---------------------------------------------------------------------------
+test_generated_debug:
+  image: gitlab.db.in.tum.de:5005/lehners/factdb
+  stage: test_generated
+  script:
+    - cd $DEBUG_BUILD_DIR
+    - ./test_generated
+  dependencies:
+    - build_generated_debug
+  tags:
+    - "umbra-test"
+# ---------------------------------------------------------------------------
+test_generated_release:
+  image: gitlab.db.in.tum.de:5005/lehners/factdb
+  stage: test_generated
+  script:
+    - cd $RELEASE_BUILD_DIR
+    - ./test_generated
+  dependencies:
+    - build_generated_release
+  tags:
+    - "umbra-test"
