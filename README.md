@@ -82,7 +82,7 @@ cmake --build .
 ### Setup
 For a quickstart, we provide the script `./scripts/bench/setup`. 
 This script does the following:
-1. Load the Umbra LE Docker Image as given by their reproducability package (requires an active installation of docker)
+1. Load the Umbra LE Docker Image as given by their reproducibility package (requires an active installation of docker)
 2. Load FBench and LMFAO
 3. Load the data for the CE benchmark and the SSB (both, scale factor 1 and 10)
 4. Generates the data for the artificial benchmark.
