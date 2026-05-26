@@ -19,3 +19,6 @@ cd build
 cmake -DCMAKE_BUILD_TYPE=Release ..
 make -j${nproc} benchArtificial
 ./benchArtificial -mGraphviz -talphaZipf -agk
+
+echo "Download estimates.db - this might take a while"
+curl -fSL https://db.in.tum.de/~lehner/estimates.db -o factDB/gen/estimates.db
